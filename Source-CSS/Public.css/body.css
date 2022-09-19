@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    /* font-family: "Work Sans", sans-serif; */
+}
+
+.navbar-nav .nav-item a {
+    font-size: 18px;
+    line-height: 40px;
+    color: #5b5b5b;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--red);
+}
+
+.menu .nav-item {
+    padding: 0 16px;
+}
+
+#icons .nav-item {
+    padding-left: 20px;
+}
