@@ -6,5 +6,5 @@ setInterval(() => {
 	if(counter > 3) {
 		counter = 1;
 	}
-}, 5000);
+}, 6000);
 // End slideshow
