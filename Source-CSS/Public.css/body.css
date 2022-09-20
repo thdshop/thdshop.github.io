@@ -1,12 +1,14 @@
 /* Header */
 body {
     box-sizing: border-box;
-    display: block;
+    /* display: block;
     /* font-family: "Work Sans", sans-serif; */
 }
 
 .navbar {
     background-color: #fff;
+    top: 0;
+    right: 0;
 }
 
 .navbar-nav {
@@ -54,6 +56,10 @@ body {
 }
 
 @media (max-width: 990px) { 
+    .navbar {
+        position: unset;
+    }
+
     #icons {
         display: none;
     }
