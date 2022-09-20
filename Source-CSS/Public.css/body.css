@@ -9,6 +9,10 @@ body {
     background-color: #fff;
 }
 
+.navbar-nav {
+    margin-left: 40px;
+}
+
 .navbar-nav .nav-item a {
     font-size: 18px;
     line-height: 40px;
