@@ -1,26 +1,20 @@
 /* Slideshow */
 .slider {
 	width: 100%;
-	/*height: 100%;*/
+	height: 800px;
+	display: block;
 	overflow: hidden;
 }
 
 .slides {
 	width: 500%;
-	/*height: 710px;*/
+	height: 800px;
 	display: flex;
 	overflow: hidden;
 }
 
 .slides input {
 	display: none;
-}
-
-.content {
-	position: absolute;
-	width: 10%;
-	margin-top: 10%;
-	margin-left: 12%;
 }
 
 .slide {
@@ -30,7 +24,57 @@
 
 .slide img {
 	width: 100%;
+	height: 100%;
+	background-size: cover;
 }
+ /* slider Content */
+.slider-content {
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.slider-content h1 {
+	font-size: 70px;
+}
+
+.slider-content h1 span {
+	color: var(--red);
+}
+
+.slider-content hr {
+	width: 70px;
+	border-top: 4px solid var(--red);
+	opacity: 1;
+}
+
+.slider-content p {
+	font-size: 17px;
+	color: var(--grey);
+}
+
+.slider-content a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 15px 35px;
+	border-radius: 999px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: var(--black);
+	transition: 0.3s ease;
+}
+
+.slider-content a i {
+	padding-left: 20px;
+}
+
+.slider-content a:hover {
+	background-color: var(--pink);
+}
+/* slider end */
 
 .navigation-manual {
 	position: absolute;
@@ -46,7 +90,7 @@
 	border-radius: 10px;
 	cursor: pointer;
 	transition: 1s;
-	margin: 0 15px;
+	margin: 0 10px;
 }
 
 .munual-btn:hover {
