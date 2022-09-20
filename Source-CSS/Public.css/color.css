@@ -1,4 +1,6 @@
 :root {
-    --red: #fd5a5d;
-    --pink: rgb(250, 161, 161);
+    --red: #f7494c;
+    --pink: rgb(248, 118, 118);
+    --grey: rgb(70, 68, 68);
+    --black: rgb(36, 34, 34);
 }
