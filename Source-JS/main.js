@@ -7,12 +7,19 @@ setTimeout(() => {
 // End Slider content
 
 // Slideshow
-var counter = 1;
+var counter = 1, start = 0;
 setInterval(() => {
-	document.getElementById('radio' + counter).checked = true;
+	let radio = document.getElementById('radio' + counter);
+	radio.checked = true;
 	counter++;
 	if(counter > 3) {
 		counter = 1;
 	}
-}, 10000);
+	setTimeout(() => {
+		sliderContent.style.transform = "translateX(70px)";
+		sliderContent.style.opacity = "1";
+	}, 1500);
+	if(start) sliderContent.style.opacity = "0";
+	start = 1;
+}, 9000);
 // End slideshow
