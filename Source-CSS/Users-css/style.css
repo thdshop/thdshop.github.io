@@ -1,1 +1,173 @@
+/* Slideshow */
+.slider {
+	width: 100%;
+	height: 800px;
+	display: block;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 800px;
+	display: flex;
+	overflow: hidden;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 3s;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+ /* slider Content */
+.slider-content {
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.slider-content h1 {
+	font-size: 70px;
+}
+
+.slider-content h1 span {
+	color: var(--red);
+}
+
+.slider-content hr {
+	width: 70px;
+	border-top: 4px solid var(--red);
+	opacity: 1;
+}
+
+.slider-content p {
+	font-size: 17px;
+	color: var(--grey);
+}
+
+.slider-content a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 15px 35px;
+	border-radius: 999px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: var(--black);
+	transition: 0.3s ease;
+}
+
+.slider-content a i {
+	padding-left: 20px;
+}
+
+.slider-content a:hover {
+	background-color: var(--pink);
+}
+/* slider end */
+
+.navigation-manual {
+	position: absolute;
+	width: 100%;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.munual-btn {
+	border: 2px solid var(--red);
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+	margin: 0 10px;
+}
+
+.munual-btn:hover {
+	background-color: var(--red);
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+@media (max-width: 990px) {
+    .slider {
+        display: none;
+    }
+}
+/* End slideshow */
+
+/* Topics */
+.topics {
+	margin-top: 50px;
+}
+
+.content-item {
+	padding: 30px 40px;
+}
+
+.content-item:hover {
+	box-shadow: 0 4px 10px #0000001f;
+}
+
+.content-item img {
+	width: 72px;
+	height: 72px;
+}
+
+.content-item a {
+	display: block;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+	color: var(--black);
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.content-item a:hover {
+	color: var(--red);
+}
+
+.content-item p {
+	font-size: 14px;
+	margin-top: 7px;
+}
+
+#topic1 {
+	background-color: var(--violet);
+}
+
+#topic2 {
+	background-color: var(--yellow);
+}
+
+#topic3 {
+	background-color: var(--green);
+}
+
+#topic4 {
+	background-color: var(--pink2);
+}
+
+/* End Topics */
 
