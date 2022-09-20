@@ -23,10 +23,8 @@
 }
 
 .slide img {
-	width: 100%;
+	width: auto;
 	height: 100%;
-	background-size: cover;
-	background-position: center;
 }
  /* slider Content */
 .slider-content {
