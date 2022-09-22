@@ -122,6 +122,7 @@
 
 .content-item {
 	padding: 30px 40px;
+	transition: 0.3s ease;
 }
 
 .content-item:hover {
@@ -230,3 +231,25 @@
 }
 
 /* End collection */
+
+/* Animated */
+.animated {
+	margin-top: 30px;
+}
+
+.animated .row .banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.animated .banner img {
+	max-width: 100%;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.animated .banner img:hover {
+	transform: scale(110%);
+}
+
+/* End animated */
