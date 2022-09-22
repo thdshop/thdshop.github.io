@@ -26,6 +26,8 @@ body {margin-top: 0;}
 }
 
 .col {
+    /* text-align: center; */
+    /* margin-bottom: 25px; */
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -144,7 +146,7 @@ body {margin-top: 0;}
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {
+@media (min-width: 740px ) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -432,11 +434,12 @@ body {margin-top: 0;}
 }
 
 /* Tablet - PC low resolution */
-@media (min-width: 740px) and (max-width: 1023px) {
+/* @media (min-width: 600px) and (max-width: 800px) {
     .wide {
         width: 644px;
     }
-}
+
+} */
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
