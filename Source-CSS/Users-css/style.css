@@ -263,6 +263,12 @@
 	max-width: 100%;
 }
 
+.sale-off .row .sale-time {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .sale-off .row .sale-content #ct1 {
 	font-size: 24px;
 	color: var(--grey3);
