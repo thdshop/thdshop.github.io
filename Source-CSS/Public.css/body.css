@@ -70,3 +70,44 @@ body {
 }
 
 /* End header */
+
+/* Footer */
+footer {
+    margin-top: 100px;
+}
+
+footer .shop-info {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+footer .shop-info .about-info {
+    text-align: center;
+}
+
+footer .shop-info .about-info h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+footer .shop-info .about-info p {
+    font-size: 16px;
+    color: var(--grey);
+}
+
+footer .shop-info .about-info p span {
+    font-weight: 600;
+}
+
+footer .content-creater {
+    background-color: #333333;
+}
+
+footer .content-creater p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+/* End Footer */
