@@ -45,3 +45,7 @@ document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 	}
 }, 1000);
 // End countdown
+
+// Client says
+
+// End Client says
