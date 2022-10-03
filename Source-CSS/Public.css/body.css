@@ -11,6 +11,15 @@ body {
     right: 0;
 }
 
+.navbar-brand {
+    flex: 6%;
+}
+
+.navbar-brand img {
+    max-width: 250px;
+    max-height: 50px;
+}
+
 .navbar-nav {
     margin-left: 40px;
 }
