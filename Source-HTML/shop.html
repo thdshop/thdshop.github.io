@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/grid.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/body.css">
+    <link rel="stylesheet" href="../Source-CSS/Public.css/color.css">
+    <link rel="stylesheet" href="../Source-CSS/Users-css/shop.css">
+    <link rel="stylesheet" href="../Source-CSS/Users-css/products.css">
+    <title>Shop</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-5" href="#"><img src="../image/image-icon/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav menu">              
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html" style="color: var(--red);">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          
+        </ul>
+
+        <ul id="icons" class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-cart4"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-gear-fill"></i>
+                </a>
+            </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <section class="title-shop">
+    <h1><a href="./index.html">HOME</a> / PRODUCTS</h1>
+  </section>
+
+  <div class="grid-shop container">
+    <div class="row">
+      <div class="boxes-info col-lg-3">
+        <div class="box-info">
+          <span>Category</span>
+          <div class="boxes-check">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c1">
+              <label class="form-check-label" for="c1">
+                Action & Adventure
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c2">
+              <label class="form-check-label" for="c2">
+                Activity Books
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c3">
+              <label class="form-check-label" for="c3">
+                Animals
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c4">
+              <label class="form-check-label" for="c4">
+                Anthologies
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c5">
+              <label class="form-check-label" for="c5">
+                Arts & Literature
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c6">
+              <label class="form-check-label" for="c6">
+                Classics
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c7">
+              <label class="form-check-label" for="c7">
+                Cultural
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c8">
+              <label class="form-check-label" for="c8">
+                Foreign Language
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c9">
+              <label class="form-check-label" for="c9">
+                Historical
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="c10">
+              <label class="form-check-label" for="c10">
+                Uncategorized
+              </label>
+            </div>
+  
+            <button class="search-category">
+              <i class="bi bi-search-heart"></i>
+              Search
+            </button>
+          </div>
+        </div>
+  
+        <div class="box-info">
+          <span>Authors</span>
+          <div class="boxes-check">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="a1">
+              <label class="form-check-label" for="a1">
+                Victor Hugo
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="a2">
+              <label class="form-check-label" for="a2">
+                J. K. Rowling
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="a3">
+              <label class="form-check-label" for="a3">
+                Văn Cao
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="a4">
+              <label class="form-check-label" for="a4">
+                Nguyễn Nhật Ánh
+              </label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="a5">
+              <label class="form-check-label" for="a5">
+                Cao Dương
+              </label>
+            </div>
+  
+            <button class="search-category">
+              <i class="bi bi-search-heart"></i>
+              Search
+            </button>
+          </div>
+        </div>
+  
+        <div class="box-info">
+          <span>Filter By Price</span>
+          <div class="boxes-check">
+              <input type="range" id="filter" min="5" max="1000"><br>
+              <p>Price: $5 - $<span id="change-price"></span></p>
+              <a class="filtered" href="">Filter</a>
+          </div>
+        </div>
+  
+        <div class="box-info">
+          <span>Review Ratings</span>
+          <div class="boxes-check">
+            <a href="" class="rate">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <span>(7)</span>
+            </a><br>
+  
+            <a href="" class="rate">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+              <span>(23)</span>
+            </a><br>
+  
+            <a href="" class="rate">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+              <span>(4)</span>
+            </a>
+          </div>
+        </div>
+  
+        <div class="box-info">
+          <span>Featured Books</span>
+          <div class="boxes-check">
+            <div class="products-feature">
+              <div class="product-feature">
+                <div class="product-fea-img">
+                  <a href=""><img src="../image/image-product/product-feature1.jpg" alt=""></a>
+                </div>
+  
+                <div class="product-fea-detail">
+                  <a href="">Rich Dad Poor Dad</a>
+                  <p>Action & Adventure...</p>
+                </div>   
+              </div>
+              <div class="product-feature">
+                <div class="product-fea-img">
+                  <a href=""><img src="../image/image-product/product-feature2.jpg" alt=""></a>
+                </div>
+  
+                <div class="product-fea-detail">
+                  <a href="">The Story of Success</a>
+                  <p>Action & Adventure...</p>
+                </div>   
+              </div>
+              <div class="product-feature">
+                <div class="product-fea-img">
+                  <a href=""><img src="../image/image-product/product-feature3.jpg" alt=""></a>
+                </div>
+  
+                <div class="product-fea-detail">
+                  <a href="">Leibovitz: Wonderland</a>
+                  <p>Action & Adventure...</p>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="list-products col-lg-9">
+        <div class="product-popular container">
+          <div class="products row">
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+
+              <a href="./product.html">
+                <img
+                  id="1"
+                  class="img-fluid"
+                  src="../image/image-product/book1.webp"
+                  alt=""
+                  onClick="getId(this.id)"
+                />
+                <span>New</span>
+              </a>
+              <div class="product-info">
+                <h3>Murdering Last Year</h3>
+                <span>$19.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="./product.html">
+                <img
+                  id="2"
+                  class="img-fluid"
+                  src="../image/image-product/book2.webp"
+                  alt=""
+                  onClick="getId(this.id)"
+                />
+              </a>
+              <div class="product-info">
+                <h3>About The First Night</h3>
+                <span>$79.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book3.webp"
+                  alt=""
+                />
+                <span>Sale -11%</span>
+              </a>
+              <div class="product-info">
+                <h3>Food Poison</h3>
+                <span>$50.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book4.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>Graphic Design School</h3>
+                <span>$80.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book5.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>Black Night</h3>
+                <span>$39.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book6.webp"
+                  alt=""
+                />
+                <span>New</span>
+              </a>
+              <div class="product-info">
+                <h3>Stay Healthy</h3>
+                <span>$29.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book7.webp"
+                  alt=""
+                />
+                <span>Sale -10%</span>
+              </a>
+              <div class="product-info">
+                <h3>Monsoon</h3>
+                <span>$40.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book8.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>The Big Book Of Science</h3>
+                <span>$28.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book9.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>Many Different Kinds</h3>
+                <span>$70.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book10.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>Numen: A Sacredr</h3>
+                <span>$102.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book11.webp"
+                  alt=""
+                />
+                <span>New</span>
+              </a>
+              <div class="product-info">
+                <h3>One: Pot, Pan, Planet</h3>
+                <span>$27.05</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book12.webp"
+                  alt=""
+                />
+                <span>Sale -5%</span>
+              </a>
+              <div class="product-info">
+                <h3>The Key To The Tarot</h3>
+                <span>$109.10</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book13.webp"
+                  alt=""
+                />
+                <span>New</span>
+              </a>
+              <div class="product-info">
+                <h3>Self-Care</h3>
+                <span>$59.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book14.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>The Original Rider Waite</h3>
+                <span>$208.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-content py-3 col-lg-4 col-md-6">
+              <a href="">
+                <img
+                  class="img-fluid"
+                  src="../image/image-product/book3.webp"
+                  alt=""
+                />
+              </a>
+              <div class="product-info">
+                <h3>Product Media</h3>
+                <span>$300.00</span>
+                <div class="rate">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="shop-info">
+      <div class="container">
+        <div class="about-info">
+          <h3>ABOUT INFO</h3>
+          <p>We are a group of 4 with the theme of bookstore sales managers. Hope you guys support us.</p>
+          <p>
+            <i class="bi bi-geo-alt"></i> 
+            <span>Addresss:</span> IT3 UTC, Ha Noi VietNam
+          </p>
+          <p>
+            <i class="bi bi-envelope"></i> 
+            <span>Email:</span> no_email00000@gmail.com
+          </p>
+          <p>
+            <i class="bi bi-telephone"></i>
+            <span>Phone Number (tel):</span> 012 345 6789
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-creater">
+      <p>Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng</p>
+    </div>
+  </footer>
+    
+    <script src="../Source-JS/shop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
