@@ -1,6 +1,6 @@
 .form-contact {
-    width: 70%;
-    margin:150px auto;
+    width: 80%;
+    margin:130px auto;
 }
 
 .form-contact input,
@@ -96,6 +96,7 @@ input[type=submit]
 {
     background-color: var(--red);
     color: #fff;
-    max-width: 20%;
+    max-width: 15%;
+    height: 30px;
     float: right;
 }
