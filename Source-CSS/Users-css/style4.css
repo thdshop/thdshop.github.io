@@ -1,0 +1,101 @@
+.form-contact {
+    width: 70%;
+    margin:150px auto;
+}
+
+.form-contact input,
+.form-contact #pay {
+    border-radius: 3px;
+    border: 1px solid var(--grey2);
+    display: inline-block;
+    width: 100%;
+    margin: 7px 0;
+    padding: 2px 0;
+}
+
+.info img {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info .info-detail i {
+    color: var(--red);
+}
+
+.info .info-detail a {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.info .info-detail a:hover {
+    color: var(--red);
+}
+
+.contact-form h2
+{
+    color: var(--red);
+    font-size: 24px;
+    font-weight:  500;
+}
+
+.inputBox
+{
+    position: relative;
+    margin-bottom: 25px;
+}
+.inputBox.w50
+{
+    width: 100%;
+}
+.inputBox.w100
+{
+    width: 100%;
+}
+.inputBox input,
+.inputBox textarea
+{
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.inputBox.w100 textarea {
+    height: 100px;
+}
+
+.inputBox span
+{
+    position : absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    transition: 0.3s;
+}
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--red);
+}
+input[type=submit]
+{
+    background-color: var(--red);
+    color: #fff;
+    max-width: 20%;
+    float: right;
+}
