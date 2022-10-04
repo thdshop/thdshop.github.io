@@ -1,6 +1,6 @@
 .form-contact {
-    width: 70%;
-    margin:150px auto;
+    width: 80%;
+    margin:130px auto;
 }
 
 .form-contact input,
@@ -10,37 +10,14 @@
     display: inline-block;
     width: 100%;
     margin: 7px 0;
-    padding: 5px 0;
-}
-
-.size-input {
-    padding-bottom: 20px;
-}
-
-.email-input {
-    display: flex;
-    justify-content: space-between;
-}
-
-.email-input input {
-    width: 70%;
-}
-
-.email-input a {
-    width: auto;
-    text-align: center;
-    margin-left: 10px;
-    padding: 6px 10px;
-    border-radius: 5px;
-    background-color: var(--red2);
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    overflow: hidden;
+    padding: 2px 0;
 }
 
 .info img {
+    display: block;
     max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info .info-detail i {
@@ -55,10 +32,6 @@
 .info .info-detail a:hover {
     color: var(--red);
 }
-
-
-
-
 
 .contact-form h2
 {
@@ -85,8 +58,8 @@
 {
     width: 100%;
     resize: none;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
     color: #333;
     border: none;
     outline: none;
@@ -103,8 +76,9 @@
     left: 0;
     padding: 5px 0;
     pointer-events: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    color: #333;
     transition: 0.3s;
 }
 .inputBox input:focus ~ span,
@@ -116,17 +90,13 @@
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
-}
-.inputBox.submit
-{
-    position: relative;
-    cursor: pointer;
     color: var(--red);
-    border: none;
-    max-width: 150px;
 }
-
-input[type=submit] {
+input[type=submit]
+{
     background-color: var(--red);
     color: #fff;
+    max-width: 15%;
+    height: 30px;
+    float: right;
 }
