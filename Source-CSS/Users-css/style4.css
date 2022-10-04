@@ -101,7 +101,7 @@ input[type=submit]
     background-color: #fff;
     border: solid 1px var(--red);
     color: var(--red);
-    max-width: 15%;
+    width: 100px;
     height: 30px;
     float: right;
     font-weight: 400;
