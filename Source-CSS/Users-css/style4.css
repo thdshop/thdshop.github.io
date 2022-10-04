@@ -21,27 +21,36 @@
 }
 
 .info .info-detail i {
-    color: var(--red);
+    color: var(--red2);
+
 }
 
 .info .info-detail a {
     text-decoration: none;
-    color: var(--pink);
+    color: var(--red);
 }
 
 .info .info-detail a:hover {
     color: var(--red);
+    text-decoration: underline;
 }
 
 .form-contact h2
 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight:  500;
 }
 
-.form-contact h2:hover
+.form-contact h3
 {
-    color: var(--red);
+    font-size: 15px;
+    font-weight:  400;
+    font-style: italic;
+}
+
+.formBox
+{
+    margin-top: 20px;
 }
 
 .inputBox
@@ -98,12 +107,14 @@
 }
 input[type=submit]
 {
-    background-color: #fff;
-    border: solid 1px var(--red);
-    color: var(--red);
     width: 100px;
     height: 30px;
+    background-color: #fff;
+    border: solid 1px var(--red);
+    border-radius: 10px;
+    color: var(--red);
     float: right;
+    font-size: 16px;
     font-weight: 400;
 }
 
