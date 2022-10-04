@@ -1,0 +1,41 @@
+/* Title Shop */
+.title-shop {
+    margin-top: 100px;
+    background-color: #f1f1f1;
+}
+
+.title-shop h1 {
+    padding: 35px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.title-shop h1 a {
+    text-decoration: none;
+    color: #212529;
+    cursor: pointer;
+}
+
+.title-shop h1 a:hover {
+    color: var(--red2);
+}
+/* End Title Shop */
+
+/* Product */
+.product {
+    margin-top: 70px;
+}
+
+.product-images img {
+    width: 100%;
+    /* max-height: 100%; */
+}
+
+.product-info-detail .price {
+    font-size: 24px;
+    color: var(--red2);
+    font-weight: 600;
+}
+/* End product */
