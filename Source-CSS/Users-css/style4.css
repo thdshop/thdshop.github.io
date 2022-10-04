@@ -33,11 +33,15 @@
     color: var(--red);
 }
 
-.contact-form h2
+.form-contact h2
+{
+    font-size: 30px;
+    font-weight:  500;
+}
+
+.form-contact h2:hover
 {
     color: var(--red);
-    font-size: 24px;
-    font-weight:  500;
 }
 
 .inputBox
@@ -87,16 +91,24 @@
 .inputBox textarea:valid ~ span
 {
     transform: translateY(-20px);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
     color: var(--red);
 }
 input[type=submit]
 {
-    background-color: var(--red);
-    color: #fff;
+    background-color: #fff;
+    border: solid 1px var(--red);
+    color: var(--red);
     max-width: 15%;
     height: 30px;
     float: right;
+    font-weight: 400;
+}
+
+input[type=submit]:hover
+{
+    background-color: var(--red);
+    color: #fff;
 }
