@@ -30,7 +30,6 @@
     margin-top: 70px;
 }
 
-
 .product-images #img-big {
     width: 100%;
     padding-bottom: 15px;
@@ -45,6 +44,11 @@
     border: 1px solid var(--red);
 }
 
+@media (max-width: 992px) {
+    .product-images .product-image {
+        display: none;
+    }
+}
 /* End left */
 
 /* Right */
