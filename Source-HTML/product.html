@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="../image/image-icon/logo_mini.png" type="image/x-icon">
-    <link rel="stylesheet" href="../Source-CSS/Public.css/grid.css">
-    <link rel="stylesheet" href="../Source-CSS/Public.css/body.css">
-    <link rel="stylesheet" href="../Source-CSS/Public.css/color.css">
-    <link rel="stylesheet" href="../Source-CSS/Users-css/product.css">
-    <title>Book Store</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="shortcut icon" href="../image/image-icon/logo_mini.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../Source-CSS/Public.css/grid.css" />
+  <link rel="stylesheet" href="../Source-CSS/Public.css/body.css" />
+  <link rel="stylesheet" href="../Source-CSS/Public.css/color.css" />
+  <link rel="stylesheet" href="../Source-CSS/Users-css/product.css" />
+  <title>Book Store</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="../image/image-icon/logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><img src="../image/image-icon/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span><i id="bar" class="bi bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav menu">              
+        <ul class="navbar-nav menu">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./shop.html" style="color: var(--red);">Shop</a>
+            <a class="nav-link" href="./shop.html" style="color: var(--red)">Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -36,29 +40,27 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="./contact.html">Contact Us</a>
           </li>
-          
         </ul>
 
         <ul id="icons" class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="bi bi-search"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="bi bi-cart4"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="bi bi-gear-fill"></i>
-                </a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-cart4"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-gear-fill"></i>
+            </a>
+          </li>
         </ul>
-        
       </div>
     </div>
   </nav>
@@ -69,8 +71,23 @@
 
   <div class="product container">
     <div class="row">
-      <div class="product-images col-lg-6">
-        <img src="../image/image-product/b1.webp" alt="">
+      <div class="product-images px-3 col-lg-6">
+        <img id="img-big" src="../image/image-product/b1.webp" alt=""/>
+        
+        <div class="row">
+          <div class="product-image col-lg-3">
+            <img class="img-small" src="../image/image-product/b10.webp" alt="">
+          </div>
+          <div class="product-image col-lg-3">
+            <img class="img-small" src="../image/image-product/b7.webp" alt="">
+          </div>
+          <div class="product-image col-lg-3">
+            <img class="img-small" src="../image/image-product/b11.webp" alt="">
+          </div>
+          <div class="product-image col-lg-3">
+            <img class="img-small" src="" alt="">
+          </div>
+        </div>
       </div>
 
       <div class="product-info col-lg-6">
@@ -79,8 +96,104 @@
           <p class="price">$<span>19.00</span></p>
           <p class="vendor">Vendor: <span>Thai</span></p>
           <p class="amount">Amount: <span>10</span></p>
-
           <p class="description">Description: <span></span></p>
+
+          <ul>
+            <li>
+              <span class="label">Book name:</span>
+              <span class="des book-name">Murdering Last Year</span>
+            </li>
+            <li>
+              <span class="label">Author Name</span>
+              <span class="des author">Thai</span>
+            </li>
+            <li>
+              <span class="label">Item Publish Date</span>
+              <span class="des">2021 / 02 / 28</span>
+            </li>
+          </ul>
+
+          <!-- Select amount -->
+          <label for="quantity">Select quantity: </label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
+          <!-- Modal1 -->
+          <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#modal1">
+            <i class="bi bi-airplane-fill"></i> <span>Shipping</span>
+          </button>
+          <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Shipping policy of our store
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>For all ecommerce businesses, one of the best ways to increase order volume is to build trust with online shoppers as they navigate your online store. Developing a detailed shipping policy that is easily found on your website is a great way to do this.</p>
+                  <p>1-2 business days (Typically by end of day) <br>
+                    30 days money back guaranty <br>
+                    24/7 live support <br>
+                    odio dignissim qui blandit praesent <br>
+                    luptatum zzril delenit augue duis dolore <br>
+                    te feugait nulla facilisi.</p>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <!-- Modal2 -->
+          <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#modal2">
+            <i class="bi bi-envelope-fill"></i> <span>Ask About This Product</span>
+          </button>
+          <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Have a question?
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <input class="form-control" placeholder="Name*">
+                  </div>
+
+                  <div class="mb-3">
+                    <input class="form-control" placeholder="Email*">
+                  </div>
+
+                  <div class="mb-3">
+                    <input class="form-control" placeholder="Phone*">
+                  </div>
+
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write message"></textarea>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" id="send" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button id="btn-buy" type="button">Buy it now</button>
+
+          <div class="share-pay">
+            <p>Categories: Latest</p>
+            <p id="share">Share: 
+              <a href=""><img src="../image/image-icon/facebook.png" alt=""></a>
+              <a href=""><img src="../image/image-icon/twitter.png" alt=""></a>
+              <a href=""><img src="../image/image-icon/tiktok.png" alt=""></a>
+            </p>
+            <p id="pay">Guaranteed safe checkout:
+              <img src="../image/image-icon/visa.png" alt="">
+              <img src="../image/image-icon/paypal.png" alt="">
+              <img src="../image/image-icon/bitcoin.png" alt="">
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -91,13 +204,16 @@
       <div class="container">
         <div class="about-info">
           <h3>ABOUT INFO</h3>
-          <p>We are a group of 4 with the theme of bookstore sales managers. Hope you guys support us.</p>
           <p>
-            <i class="bi bi-geo-alt"></i> 
+            We are a group of 4 with the theme of bookstore sales managers.
+            Hope you guys support us.
+          </p>
+          <p>
+            <i class="bi bi-geo-alt"></i>
             <span>Addresss:</span> IT3 UTC, Ha Noi VietNam
           </p>
           <p>
-            <i class="bi bi-envelope"></i> 
+            <i class="bi bi-envelope"></i>
             <span>Email:</span> no_email00000@gmail.com
           </p>
           <p>
@@ -109,12 +225,20 @@
     </div>
 
     <div class="content-creater">
-      <p>Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng</p>
+      <p>
+        Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy
+        Hoàng
+      </p>
     </div>
   </footer>
-    
-    <script src="../Source-JS/product.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+  <script src="../Source-JS/product.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
