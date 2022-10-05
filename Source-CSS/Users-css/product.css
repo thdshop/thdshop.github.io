@@ -24,13 +24,32 @@
 /* End Title Shop */
 
 /* Product */
+
+/* Left */
 .product {
     margin-top: 70px;
 }
 
-.product-images img {
+
+.product-images #img-big {
     width: 100%;
-    /* max-height: 100%; */
+    padding-bottom: 15px;
+}
+
+.product-images .product-image img {
+    max-width: 100%;
+}
+
+.product-images .product-image img:hover {
+    cursor: pointer;
+    border: 1px solid var(--red);
+}
+
+/* End left */
+
+/* Right */
+.product-info-detail h2 {
+    font-size: 28px;
 }
 
 .product-info-detail .price {
@@ -38,4 +57,96 @@
     color: var(--red2);
     font-weight: 600;
 }
+
+.product-info-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.product-info-detail ul li {
+    display: flex;
+    padding: 10px 6px;
+    border: 1px solid var(--grey2);
+    border-bottom: none;
+}
+
+.product-info-detail ul li:last-child {
+    border-bottom: 1px solid var(--grey2);
+}
+
+.label {
+    width: 30%;
+}
+
+.des {
+    border-left: 1px solid var(--grey2);
+    padding-left: 7px;
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn span {
+    transition: 0.3s ease;
+}
+
+.btn:hover span {
+    color: var(--red2);
+}
+
+.btn i {
+    color: var(--red);
+}
+
+.modal#modal1{
+    --bs-modal-width: 1000px;
+}
+
+#send {
+    background-color: var(--red);
+    border: none;
+}
+
+#btn-buy {
+    margin-top: 20px;
+    display: block;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 100px;
+    color: #fff;
+    background-color: var(--pink);
+    transition: 0.3s ease;
+}
+
+#btn-buy:hover {
+    background-color: var(--red);
+}
+
+.share-pay {
+    margin-top: 30px;
+}
+
+.share-pay p {
+    margin: 10px 0;
+}
+
+.share-pay #share img {
+    width: 30px;
+    height: 30px;
+}
+
+.share-pay #pay img {
+    width: 30px;
+    height: 30px;
+}
+
+/* End right */
 /* End product */
