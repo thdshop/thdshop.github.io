@@ -52,30 +52,30 @@
 /* End left */
 
 /* Right */
-.product-info-detail h2 {
+.products-info-detail h2 {
     font-size: 28px;
 }
 
-.product-info-detail .price {
+.products-info-detail .price {
     font-size: 24px;
     color: var(--red2);
     font-weight: 600;
 }
 
-.product-info-detail ul {
+.products-info-detail ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
 }
 
-.product-info-detail ul li {
+.products-info-detail ul li {
     display: flex;
     padding: 10px 6px;
     border: 1px solid var(--grey2);
     border-bottom: none;
 }
 
-.product-info-detail ul li:last-child {
+.products-info-detail ul li:last-child {
     border-bottom: 1px solid var(--grey2);
 }
 
@@ -152,6 +152,23 @@
     height: 30px;
 }
 
+.swal-modal {
+    background-color: #fff;
+    opacity: 1;
+}
+
+.swal-title {
+    color: var(--red2);
+}
+
+.swal-button {
+    background-color: var(--pink);
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: var(--red);
+}
+
 /* End right */
 /* End product */
 
@@ -167,12 +184,69 @@
 
 .label-content {
     display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--grey2);
+}
+
+.details-content {
+    margin-top: 10px;
 }
 
 .label-content h3 {
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     margin-right: 30px;
+    cursor: pointer;
+}
+
+.label-content h3:hover{
+    color: var(--red);
+}
+
+.customer-review {
+    display: none;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 1px solid var(--grey2);
+}
+
+.customer-review h3 {
+    font-size: 20px;
+}
+
+.customer-review p {
+    font-size: 14px;
+}
+
+.shipping {
+    display: none;
+}
+
+.shipper {
+    flex: 0 0 20%;
+}
+
+.shipper img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.ship-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* End review */
+
+/* Related products */
+.related-products {
+    margin-top: 100px;
+}
+
+.related-products h2,
+.related-products .hope {
+    text-align: center;
+}
+/* End related products */
