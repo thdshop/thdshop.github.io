@@ -1,3 +1,9 @@
+// Troll
+var icons = document.querySelectorAll('#icons a');
+icons[0].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
+icons[1].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
+icons[2].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
+
 // Slider content
 var sliderContent = document.getElementById('slider-ct');
 setTimeout(() => {
