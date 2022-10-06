@@ -1,0 +1,11 @@
+.swal-title {
+    color: var(--red2);
+}
+
+.swal-button {
+    background-color: var(--pink);
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: var(--red);
+}
