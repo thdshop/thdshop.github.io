@@ -79,10 +79,12 @@
       border-radius: 50px;
       cursor: pointer;
       margin: 10px 100px;
+      transition: 0.2s ease;
 }
 
 .infor-btn:hover {
       background-color: var(--red);
+      color: #fff;
       box-shadow: 0 4px 10px #0000001f;
 }
 
