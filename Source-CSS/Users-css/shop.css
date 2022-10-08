@@ -46,7 +46,7 @@
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     border-bottom: 1px solid var(--grey2);
 }
@@ -141,7 +141,7 @@
     border: none;
     color: #212529;
     padding-left: 5px;
-    font-size: 15px;
+    font-size: 16px;
     transition: 0.3s ease;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .product-fea-detail p {
-    font-size: 14px;
+    font-size: 15px;
     opacity: 0.6;
 }
 
