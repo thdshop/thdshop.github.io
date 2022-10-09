@@ -1,5 +1,5 @@
 // Troll
-var btns = document.querySelectorAll('button');
+var btns = document.querySelectorAll('.grid-shop button');
 for(let btn of btns) {
     btn.onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")}
 }
