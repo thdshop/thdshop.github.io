@@ -90,7 +90,7 @@
     transition: 0.2s ease;
 }
 .about .link a:hover{
-	background: var(--red);
+	background-color: var(--red);
 	color:#ffffff;
 }
 .about.bg1{
