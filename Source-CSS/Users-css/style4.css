@@ -112,7 +112,7 @@ input[type=submit]
     height: 30px;
     background-color: #fff;
     border: solid 1px var(--red);
-    border-radius: 10px;
+    border-radius: 999px;
     color: var(--red);
     float: right;
     font-size: 16px;
