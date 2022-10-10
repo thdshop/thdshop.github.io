@@ -18,6 +18,8 @@ body{
 .aboutWrap .Wrap-image img {
     height: 750px;
     width: 100%;
+	background-size: cover;
+	object-fit: cover;
 }
 
 .Wrap-image::before{
