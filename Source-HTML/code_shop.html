@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/image-icon/logo_mini.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css">
+    <title>Code Shop</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code HTML</h1>
+
+    <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+        &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css&quot; integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot; crossorigin=&quot;anonymous&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css&quot; &gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css&quot;&gt;
+            &lt;link rel=&quot;shortcut icon&quot; href=&quot;../image/image-icon/logo_mini.png&quot; type=&quot;image/x-icon&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/grid.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/body.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/color.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/shop.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/products.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/troll.css&quot;&gt;
+            &lt;title&gt;Shop&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          &lt;nav class=&quot;navbar navbar-expand-lg bg-light py-4 fixed-top&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;&lt;img src=&quot;../image/image-icon/logo.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+              &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+                &lt;span&gt;&lt;i id=&quot;bar&quot; class=&quot;bi bi-list&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+                &lt;ul class=&quot;navbar-nav menu&quot;&gt;              
+                  &lt;li class=&quot;nav-item&quot;&gt;
+                    &lt;a class=&quot;nav-link&quot; href=&quot;./index.html&quot;&gt;Home&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class=&quot;nav-item&quot;&gt;
+                    &lt;a class=&quot;nav-link&quot; href=&quot;./shop.html&quot; style=&quot;color: var(--red);&quot;&gt;Shop&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class=&quot;nav-item&quot;&gt;
+                    &lt;a class=&quot;nav-link&quot; href=&quot;./aboutus.html&quot;&gt;About Us&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class=&quot;nav-item&quot;&gt;
+                    &lt;a class=&quot;nav-link&quot; href=&quot;./index2.html&quot;&gt;Blog&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class=&quot;nav-item&quot;&gt;
+                    &lt;a class=&quot;nav-link&quot; href=&quot;./contact.html&quot;&gt;Contact Us&lt;/a&gt;
+                  &lt;/li&gt;
+                  
+                &lt;/ul&gt;
+        
+                &lt;ul id=&quot;icons&quot; class=&quot;navbar-nav ml-auto&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                            &lt;i class=&quot;bi bi-search&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                            &lt;i class=&quot;bi bi-cart4&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                            &lt;i class=&quot;bi bi-gear-fill&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/nav&gt;
+        
+          &lt;section class=&quot;title-shop&quot;&gt;
+            &lt;h1&gt;&lt;a href=&quot;./index.html&quot;&gt;HOME&lt;/a&gt; / PRODUCTS&lt;/h1&gt;
+          &lt;/section&gt;
+        
+          &lt;div class=&quot;grid-shop container&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+              &lt;div class=&quot;boxes-info col-lg-3&quot;&gt;
+                &lt;div class=&quot;box-info&quot;&gt;
+                  &lt;span&gt;Category&lt;/span&gt;
+                  &lt;div class=&quot;boxes-check&quot;&gt;
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c1&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c1&quot;&gt;
+                        Action &amp; Adventure
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c2&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c2&quot;&gt;
+                        Activity Books
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c3&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c3&quot;&gt;
+                        Animals
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c4&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c4&quot;&gt;
+                        Anthologies
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c5&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c5&quot;&gt;
+                        Arts &amp; Literature
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c6&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c6&quot;&gt;
+                        Classics
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c7&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c7&quot;&gt;
+                        Cultural
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c8&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c8&quot;&gt;
+                        Foreign Language
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c9&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c9&quot;&gt;
+                        Historical
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;c10&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;c10&quot;&gt;
+                        Uncategorized
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;button class=&quot;search-category&quot;&gt;
+                      &lt;i class=&quot;bi bi-search-heart&quot;&gt;&lt;/i&gt;
+                      Search
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+          
+                &lt;div class=&quot;box-info&quot;&gt;
+                  &lt;span&gt;Authors&lt;/span&gt;
+                  &lt;div class=&quot;boxes-check&quot;&gt;
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;a1&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;a1&quot;&gt;
+                        Victor Hugo
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;a2&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;a2&quot;&gt;
+                        J. K. Rowling
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;a3&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;a3&quot;&gt;
+                        Văn Cao
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;a4&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;a4&quot;&gt;
+                        Nguyễn Nhật Ánh
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;div class=&quot;form-check&quot;&gt;
+                      &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;a5&quot;&gt;
+                      &lt;label class=&quot;form-check-label&quot; for=&quot;a5&quot;&gt;
+                        Cao Dương
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+          
+                    &lt;button class=&quot;search-category&quot;&gt;
+                      &lt;i class=&quot;bi bi-search-heart&quot;&gt;&lt;/i&gt;
+                      Search
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+          
+                &lt;div class=&quot;box-info&quot;&gt;
+                  &lt;span&gt;Filter By Price&lt;/span&gt;
+                  &lt;div class=&quot;boxes-check&quot;&gt;
+                      &lt;input type=&quot;range&quot; id=&quot;filter&quot; min=&quot;5&quot; max=&quot;1000&quot;&gt;&lt;br&gt;
+                      &lt;p&gt;Price: $5 - $&lt;span id=&quot;change-price&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+                      &lt;a class=&quot;filtered&quot; href=&quot;&quot;&gt;Filter&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+          
+                &lt;div class=&quot;box-info&quot;&gt;
+                  &lt;span&gt;Review Ratings&lt;/span&gt;
+                  &lt;div class=&quot;boxes-check&quot;&gt;
+                    &lt;a href=&quot;&quot; class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;(7)&lt;/span&gt;
+                    &lt;/a&gt;&lt;br&gt;
+          
+                    &lt;a href=&quot;&quot; class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;(23)&lt;/span&gt;
+                    &lt;/a&gt;&lt;br&gt;
+          
+                    &lt;a href=&quot;&quot; class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star-fill&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;(4)&lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+          
+                &lt;div class=&quot;box-info&quot;&gt;
+                  &lt;span&gt;Featured Books&lt;/span&gt;
+                  &lt;div class=&quot;boxes-check&quot;&gt;
+                    &lt;div class=&quot;products-feature&quot;&gt;
+                      &lt;div class=&quot;product-feature&quot;&gt;
+                        &lt;div class=&quot;product-fea-img&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;../image/image-product/product-feature1.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+          
+                        &lt;div class=&quot;product-fea-detail&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;Rich Dad Poor Dad&lt;/a&gt;
+                          &lt;p&gt;Action &amp; Adventure...&lt;/p&gt;
+                        &lt;/div&gt;   
+                      &lt;/div&gt;
+                      &lt;div class=&quot;product-feature&quot;&gt;
+                        &lt;div class=&quot;product-fea-img&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;../image/image-product/product-feature2.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+          
+                        &lt;div class=&quot;product-fea-detail&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;The Story of Success&lt;/a&gt;
+                          &lt;p&gt;Action &amp; Adventure...&lt;/p&gt;
+                        &lt;/div&gt;   
+                      &lt;/div&gt;
+                      &lt;div class=&quot;product-feature&quot;&gt;
+                        &lt;div class=&quot;product-fea-img&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;../image/image-product/product-feature3.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+          
+                        &lt;div class=&quot;product-fea-detail&quot;&gt;
+                          &lt;a href=&quot;&quot;&gt;Leibovitz: Wonderland&lt;/a&gt;
+                          &lt;p&gt;Action &amp; Adventure...&lt;/p&gt;
+                        &lt;/div&gt;   
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+          
+              &lt;div class=&quot;list-products col-lg-9&quot;&gt;
+                &lt;div class=&quot;product-popular container&quot;&gt;
+                  &lt;div class=&quot;products row&quot;&gt;
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;0&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book1.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Murdering Last Year&lt;/h3&gt;
+                        &lt;span&gt;$19.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;1&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book2.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;About The First Night&lt;/h3&gt;
+                        &lt;span&gt;$79.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;2&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book3.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;Sale -11%&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Food Poison&lt;/h3&gt;
+                        &lt;span&gt;$50.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                        id=&quot;3&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book4.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Graphic Design School&lt;/h3&gt;
+                        &lt;span&gt;$80.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;4&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book5.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Black Night&lt;/h3&gt;
+                        &lt;span&gt;$39.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;5&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book6.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Stay Healthy&lt;/h3&gt;
+                        &lt;span&gt;$29.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;6&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book7.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;Sale -10%&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Monsoon&lt;/h3&gt;
+                        &lt;span&gt;$40.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;7&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book8.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Big Book Of Science&lt;/h3&gt;
+                        &lt;span&gt;$28.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;8&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book9.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Many Different Kinds&lt;/h3&gt;
+                        &lt;span&gt;$70.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;9&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book10.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Numen: A Sacredr&lt;/h3&gt;
+                        &lt;span&gt;$102.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;10&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book11.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;One: Pot, Pan, Planet&lt;/h3&gt;
+                        &lt;span&gt;$27.05&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;11&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book12.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;Sale -5%&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Key To The Tarot&lt;/h3&gt;
+                        &lt;span&gt;$109.10&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;12&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book13.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Self-Care&lt;/h3&gt;
+                        &lt;span&gt;$59.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                        id=&quot;13&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book14.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Original Rider Waite&lt;/h3&gt;
+                        &lt;span&gt;$208.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-4 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                        id=&quot;14&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book3.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Product Media&lt;/h3&gt;
+                        &lt;span&gt;$300.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;nav aria-label=&quot;Page navigation example&quot;&gt;
+                  &lt;ul class=&quot;pagination&quot;&gt;
+                    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;page-item&quot;&gt;
+                      &lt;a class=&quot;page-link&quot; href=&quot;#&quot; aria-label=&quot;Next&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;&amp;raquo;&lt;/span&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/nav&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        
+          &lt;footer&gt;
+            &lt;div class=&quot;shop-info&quot;&gt;
+              &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;about-info&quot;&gt;
+                  &lt;h3&gt;ABOUT INFO&lt;/h3&gt;
+                  &lt;p&gt;We are a group of 4 with the theme of bookstore sales managers. Hope you guys support us.&lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-geo-alt&quot;&gt;&lt;/i&gt; 
+                    &lt;span&gt;Addresss:&lt;/span&gt; IT3 UTC, Ha Noi VietNam
+                  &lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-envelope&quot;&gt;&lt;/i&gt; 
+                    &lt;span&gt;Email:&lt;/span&gt; no_email00000@gmail.com
+                  &lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-telephone&quot;&gt;&lt;/i&gt;
+                    &lt;span&gt;Phone Number (tel):&lt;/span&gt; 012 345 6789
+                  &lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;div class=&quot;content-creater&quot;&gt;
+              &lt;p&gt;Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/footer&gt;
+            
+            &lt;script src=&quot;../Source-JS/shop.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://unpkg.com/sweetalert/dist/sweetalert.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js&quot; integrity=&quot;sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js&quot; integrity=&quot;sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+
+    <h1>Code Javascript</h1>
+
+    <pre><code class="language-js">// Troll
+        var btns = document.querySelectorAll(&apos;.grid-shop button&apos;);
+        for(let btn of btns) {
+            btn.onclick = () =&gt; {swal(&quot;Ú òa&quot;, &quot;Không có gì đâu nhé :&gt;&quot;)}
+        }
+        
+        // Filter range
+        var filter = document.getElementById(&apos;filter&apos;);
+        var changePrice = document.getElementById(&apos;change-price&apos;);
+        changePrice.innerHTML = filter.value
+        
+        filter.oninput = () =&gt; {
+            changePrice.innerHTML = filter.value;
+        }
+        // End Filter range
+        
+        // Get id book 
+            const getId = (clickedId) =&gt; {
+                localStorage.setItem(&quot;bId&quot;, clickedId);
+            }
+        // End get id book
+        </code></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

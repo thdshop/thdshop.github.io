@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/image-icon/logo_mini.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css">
+    <title>Code Index</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code HTML</h1>
+
+    <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot; /&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css&quot;
+              integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot;
+              crossorigin=&quot;anonymous&quot;
+            /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css&quot;
+            /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css&quot;
+            /&gt;
+            &lt;link rel=&quot;shortcut icon&quot; href=&quot;../image/image-icon/logo_mini.png&quot; type=&quot;image/x-icon&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/grid.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/body.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/color.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/style.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/products.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/troll.css&quot;&gt;
+            &lt;title&gt;Book Store&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;nav class=&quot;navbar navbar-expand-lg bg-light py-4 fixed-top&quot;&gt;
+              &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;
+                  &gt;&lt;img src=&quot;../image/image-icon/logo.png&quot; alt=&quot;&quot;
+                /&gt;&lt;/a&gt;
+                &lt;button
+                  class=&quot;navbar-toggler&quot;
+                  type=&quot;button&quot;
+                  data-bs-toggle=&quot;collapse&quot;
+                  data-bs-target=&quot;#navbarSupportedContent&quot;
+                  aria-controls=&quot;navbarSupportedContent&quot;
+                  aria-expanded=&quot;false&quot;
+                  aria-label=&quot;Toggle navigation&quot;
+                &gt;
+                  &lt;span&gt;&lt;i id=&quot;bar&quot; class=&quot;bi bi-list&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+                  &lt;ul class=&quot;navbar-nav menu&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;color: var(--red)&quot;&gt;Home&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./shop.html&quot;&gt;Shop&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./aboutus.html&quot;&gt;About Us&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./index2.html&quot;&gt;Blog&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./contact.html&quot;&gt;Contact Us&lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+        
+                  &lt;ul id=&quot;icons&quot; class=&quot;navbar-nav ml-auto&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-search&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-cart4&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-gear-fill&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/nav&gt;
+        
+            &lt;section class=&quot;slider&quot;&gt;
+              &lt;div class=&quot;slides&quot;&gt;
+                &lt;input type=&quot;radio&quot; name=&quot;radio-btn&quot; id=&quot;radio1&quot; /&gt;
+                &lt;input type=&quot;radio&quot; name=&quot;radio-btn&quot; id=&quot;radio2&quot; /&gt;
+                &lt;input type=&quot;radio&quot; name=&quot;radio-btn&quot; id=&quot;radio3&quot; /&gt;
+        
+                &lt;div class=&quot;slide first&quot;&gt;
+                  &lt;img src=&quot;../image/image-background/home-1-slider-1.webp&quot; alt=&quot;&quot; /&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;slide&quot;&gt;
+                  &lt;img src=&quot;../image/image-background/home-1-slider-2.webp&quot; alt=&quot;&quot; /&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;slide&quot;&gt;
+                  &lt;img src=&quot;../image/image-background/home-1-slider-1.webp&quot; alt=&quot;&quot; /&gt;
+                &lt;/div&gt;
+        
+                &lt;div id=&quot;slider-ct&quot; class=&quot;slider-content&quot;&gt;
+                  &lt;h1&gt;&lt;span&gt;Knowledge is&lt;/span&gt;&lt;br /&gt;Strength.&lt;/h1&gt;
+                  &lt;hr /&gt;
+                  &lt;p&gt;
+                    Good friends, good books, and a sleepy&lt;br /&gt;conscience: this is the
+                    ideal life.
+                  &lt;/p&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    Explore more
+                    &lt;i class=&quot;bi bi-cart4&quot;&gt;&lt;/i&gt;
+                  &lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;navigation-manual&quot;&gt;
+                &lt;label for=&quot;radio1&quot; class=&quot;munual-btn&quot;&gt;&lt;/label&gt;
+                &lt;label for=&quot;radio2&quot; class=&quot;munual-btn&quot;&gt;&lt;/label&gt;
+                &lt;label for=&quot;radio3&quot; class=&quot;munual-btn&quot;&gt;&lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+        
+            &lt;section class=&quot;topics grid wide&quot;&gt;
+              &lt;div class=&quot;topic-item row&quot;&gt;
+                &lt;div class=&quot;col l-3 m-6 c-12 m-6 c-12&quot;&gt;
+                  &lt;div class=&quot;content-item&quot; id=&quot;topic1&quot;&gt;
+                    &lt;img src=&quot;../image/image-icon/camera.png&quot; alt=&quot;&quot; /&gt;
+                    &lt;a href=&quot;#&quot;&gt;Photography&lt;/a&gt;
+                    &lt;p&gt;Super Collections&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;col l-3 m-6 c-12&quot;&gt;
+                  &lt;div class=&quot;content-item&quot; id=&quot;topic2&quot;&gt;
+                    &lt;img src=&quot;../image/image-icon/food.png&quot; alt=&quot;&quot; /&gt;
+                    &lt;a href=&quot;#&quot;&gt;Food &amp; Drink&lt;/a&gt;
+                    &lt;p&gt;Special Collections&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;col l-3 m-6 c-12&quot;&gt;
+                  &lt;div class=&quot;content-item&quot; id=&quot;topic3&quot;&gt;
+                    &lt;img src=&quot;../image/image-icon/health.png&quot; alt=&quot;&quot; /&gt;
+                    &lt;a href=&quot;#&quot;&gt;Health&lt;/a&gt;
+                    &lt;p&gt;Best Collections&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;col l-3 m-6 c-12&quot;&gt;
+                  &lt;div class=&quot;content-item&quot; id=&quot;topic4&quot;&gt;
+                    &lt;img src=&quot;../image/image-icon/romance.png&quot; alt=&quot;&quot; /&gt;
+                    &lt;a href=&quot;#&quot;&gt;Romance&lt;/a&gt;
+                    &lt;p&gt;Top Collections&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+        
+            &lt;section class=&quot;product-popular container&quot;&gt;
+              &lt;h2&gt;Popular Collections&lt;/h2&gt;
+              &lt;p&gt;The best-selling and most-loved books in our store&lt;/p&gt;
+              &lt;div class=&quot;products row&quot;&gt;
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book1.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Murdering Last Year&lt;/h3&gt;
+                    &lt;span&gt;$19.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book2.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;About The First Night&lt;/h3&gt;
+                    &lt;span&gt;$79.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book3.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Food Poison&lt;/h3&gt;
+                    &lt;span&gt;$50.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book4.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Graphic Design School&lt;/h3&gt;
+                    &lt;span&gt;$80.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book5.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Black Night&lt;/h3&gt;
+                    &lt;span&gt;$39.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book6.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Stay Healthy&lt;/h3&gt;
+                    &lt;span&gt;$29.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book7.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;Monsoon&lt;/h3&gt;
+                    &lt;span&gt;$40.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6 col-12&quot;&gt;
+                  &lt;a href=&quot;./shop.html&quot;&gt;
+                    &lt;img
+                      class=&quot;img-fluid&quot;
+                      src=&quot;../image/image-product/book8.webp&quot;
+                      alt=&quot;&quot;
+                    /&gt;
+                  &lt;/a&gt;
+                  &lt;div class=&quot;product-info&quot;&gt;
+                    &lt;h3&gt;The Big Book Of Science&lt;/h3&gt;
+                    &lt;span&gt;$28.00&lt;/span&gt;
+                    &lt;div class=&quot;rate&quot;&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                      &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/section&gt;
+        
+            &lt;div class=&quot;animated container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;py-3 col-lg-6 col-md-12 col-12&quot;&gt;
+                  &lt;div class=&quot;banner&quot;&gt;
+                    &lt;a href=&quot;./shop.html&quot;
+                      &gt;&lt;img src=&quot;../image/image-background/banner-1.webp&quot; alt=&quot;&quot;
+                    /&gt;&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;py-3 col-lg-6 col-md-12 col-12&quot;&gt;
+                  &lt;div class=&quot;banner&quot;&gt;
+                    &lt;a href=&quot;./shop.html&quot;
+                      &gt;&lt;img src=&quot;../image/image-background/banner-2.webp&quot; alt=&quot;&quot;
+                    /&gt;&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;div class=&quot;sale-off container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-lg-6 col-md-12 col-12&quot;&gt;
+                  &lt;img src=&quot;../image/image-background/book-bgr.webp&quot; alt=&quot;&quot; /&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;sale-time col-lg-6 col-md-12 col-12&quot;&gt;
+                  &lt;div class=&quot;sale-content&quot;&gt;
+                    &lt;p id=&quot;ct1&quot;&gt;Special Offers&lt;/p&gt;
+                    &lt;h2&gt;Books are 50% off now! Don&apos;t miss such a big deal!&lt;/h2&gt;
+                    &lt;p id=&quot;ct2&quot;&gt;
+                      It&apos;s the perfect time to add more books to your
+                      bookshelf. You shouldn&apos;t miss it.
+                    &lt;/p&gt;
+                    &lt;p id=&quot;countdown&quot;&gt;&lt;/p&gt;
+                    &lt;a href=&quot;#&quot;&gt;Explore more&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;div class=&quot;client-review&quot;&gt;
+              &lt;div class=&quot;review&quot;&gt;
+                &lt;div class=&quot;review-content&quot;&gt;
+                  &lt;h2&gt;Feature Comments&lt;/h2&gt;
+                  &lt;p id=&quot;rv1&quot;&gt;Nguyễn Thùy Dương&lt;/p&gt;
+                  &lt;img
+                    src=&quot;../image/image-background/Thuy_Duong.jpg&quot;
+                    alt=&quot;&quot;
+                  /&gt;
+                  &lt;p id=&quot;rv2&quot;&gt;
+                    The books I bought in this online store has a good quality, the
+                    price is reasonable. Also this website is very good looking. I hope that 
+                    you guys can continue supporting our group 4. Thank you so much :&gt;
+                  &lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        
+          &lt;footer&gt;
+            &lt;div class=&quot;shop-info&quot;&gt;
+              &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;about-info&quot;&gt;
+                  &lt;h3&gt;ABOUT US&lt;/h3&gt;
+                  &lt;p&gt;We&apos;re Group 4, currently working on Bookstore Website Project. Hope you guys support us.&lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-geo-alt&quot;&gt;&lt;/i&gt; 
+                    &lt;span&gt;Address:&lt;/span&gt; 3 Cau Giay St., Lang Thuong, Dong Da, Ha Noi.
+                  &lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-envelope&quot;&gt;&lt;/i&gt; 
+                    &lt;span&gt;Email:&lt;/span&gt; abc@example.com
+                  &lt;/p&gt;
+                  &lt;p&gt;
+                    &lt;i class=&quot;bi bi-telephone&quot;&gt;&lt;/i&gt;
+                    &lt;span&gt;Mobile Number (tel):&lt;/span&gt; (+84)123 456 789
+                    &lt;a href=&quot;./code_index.html&quot;&gt;code&lt;/a&gt;
+                  &lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;div class=&quot;content-creater&quot;&gt;
+              &lt;p&gt;Designed by HasThemes | Re-created by Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/footer&gt;
+        
+            &lt;script src=&quot;https://unpkg.com/sweetalert/dist/sweetalert.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;../Source-JS/main.js&quot;&gt;&lt;/script&gt;
+            &lt;script
+              src=&quot;https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js&quot;
+              integrity=&quot;sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3&quot;
+              crossorigin=&quot;anonymous&quot;
+            &gt;&lt;/script&gt;
+            &lt;script
+              src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js&quot;
+              integrity=&quot;sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz&quot;
+              crossorigin=&quot;anonymous&quot;
+            &gt;&lt;/script&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    
+        <h1>Code Javascript</h1>
+        <pre><code class="language-js">// Troll
+            var icons = document.querySelectorAll(&apos;#icons a&apos;);
+            icons[0].onclick = () =&gt; {swal(&quot;Ú òa&quot;, &quot;Không có gì đâu nhé :&gt;&quot;)};
+            icons[1].onclick = () =&gt; {swal(&quot;Ú òa&quot;, &quot;Không có gì đâu nhé :&gt;&quot;)};
+            icons[2].onclick = () =&gt; {swal(&quot;Ú òa&quot;, &quot;Không có gì đâu nhé :&gt;&quot;)};
+            
+            // Slider content
+            var sliderContent = document.getElementById(&apos;slider-ct&apos;);
+            setTimeout(() =&gt; {
+                sliderContent.style.transform = &quot;translateX(70px)&quot;;
+                sliderContent.style.opacity = &quot;1&quot;;
+            }, 1000);
+            // End Slider content
+            
+            // Slideshow
+            var counter = 1, start = 0;
+            setInterval(() =&gt; {
+                document.getElementById(&apos;radio&apos; + counter).checked = true;
+                counter++;
+                if(counter &gt; 3) {
+                    counter = 1;
+                }
+                setTimeout(() =&gt; {
+                    sliderContent.style.transform = &quot;translateX(70px)&quot;;
+                    sliderContent.style.opacity = &quot;1&quot;;
+                }, 1500);
+                if(start) sliderContent.style.opacity = &quot;0&quot;;
+                start = 1;
+            }, 9000);
+            // End slideshow
+            
+            // Countdown
+            var countDownDate = new Date(&quot;Nov 20, 2022 00:00:00&quot;).getTime();
+            var x = setInterval(function() {
+            
+            var now = new Date().getTime();
+                
+            var distance = countDownDate - now;
+                
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+            document.getElementById(&quot;countdown&quot;).innerHTML = days + &quot;d &quot; + hours + &quot;h &quot;
+            + minutes + &quot;m &quot; + seconds + &quot;s &quot;;
+                
+                if (distance &lt; 0) {
+                    clearInterval(x);
+                    document.getElementById(&quot;demo&quot;).innerHTML = &quot;EXPIRED&quot;;
+                }
+            }, 1000);
+            // End countdown
+            
+            // Client says
+            
+            // End Client says</code></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

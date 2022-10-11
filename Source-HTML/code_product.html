@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/image-icon/logo_mini.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css">
+    <title>Code product</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code HTML</h1>
+    <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot; /&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css&quot;
+              integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot;
+              crossorigin=&quot;anonymous&quot;
+            /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css&quot;
+            /&gt;
+            &lt;link
+              rel=&quot;stylesheet&quot;
+              href=&quot;https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css&quot;
+            /&gt;
+            &lt;link
+              rel=&quot;shortcut icon&quot;
+              href=&quot;../image/image-icon/logo_mini.png&quot;
+              type=&quot;image/x-icon&quot;
+            /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/grid.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/body.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Public.css/color.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/product.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/products.css&quot;&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;../Source-CSS/Users-css/troll.css&quot;&gt;
+            &lt;title&gt;Book Store&lt;/title&gt;
+          &lt;/head&gt;
+        
+          &lt;body&gt;
+            &lt;nav class=&quot;navbar navbar-expand-lg bg-light py-4 fixed-top&quot;&gt;
+              &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;
+                  &gt;&lt;img src=&quot;../image/image-icon/logo.png&quot; alt=&quot;&quot;
+                /&gt;&lt;/a&gt;
+                &lt;button
+                  class=&quot;navbar-toggler&quot;
+                  type=&quot;button&quot;
+                  data-bs-toggle=&quot;collapse&quot;
+                  data-bs-target=&quot;#navbarSupportedContent&quot;
+                  aria-controls=&quot;navbarSupportedContent&quot;
+                  aria-expanded=&quot;false&quot;
+                  aria-label=&quot;Toggle navigation&quot;
+                &gt;
+                  &lt;span&gt;&lt;i id=&quot;bar&quot; class=&quot;bi bi-list&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+                  &lt;ul class=&quot;navbar-nav menu&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./index.html&quot;&gt;Home&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./shop.html&quot; style=&quot;color: var(--red)&quot;
+                        &gt;Shop&lt;/a
+                      &gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./aboutus.html&quot;&gt;About Us&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./index2.html&quot;&gt;Blog&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;./contact.html&quot;&gt;Contact Us&lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+        
+                  &lt;ul id=&quot;icons&quot; class=&quot;navbar-nav ml-auto&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-search&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-cart4&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                      &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;
+                        &lt;i class=&quot;bi bi-gear-fill&quot;&gt;&lt;/i&gt;
+                      &lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/nav&gt;
+        
+            &lt;section class=&quot;title-shop&quot;&gt;
+              &lt;h1&gt;&lt;a href=&quot;./index.html&quot;&gt;HOME&lt;/a&gt; / &lt;span&gt;PRODUCTS&lt;/span&gt;&lt;/h1&gt;
+            &lt;/section&gt;
+        
+            &lt;div class=&quot;product container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;product-images px-3 col-lg-6&quot;&gt;
+                  &lt;img id=&quot;img-big&quot; src=&quot;../image/image-product/b1.webp&quot; alt=&quot;&quot; /&gt;
+        
+                  &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;product-image col-lg-3&quot;&gt;
+                      &lt;img
+                        class=&quot;img-small&quot;
+                        src=&quot;../image/image-product/b10.webp&quot;
+                        alt=&quot;&quot;
+                      /&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;product-image col-lg-3&quot;&gt;
+                      &lt;img
+                        class=&quot;img-small&quot;
+                        src=&quot;../image/image-product/b7.webp&quot;
+                        alt=&quot;&quot;
+                      /&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;product-image col-lg-3&quot;&gt;
+                      &lt;img
+                        class=&quot;img-small&quot;
+                        src=&quot;../image/image-product/b11.webp&quot;
+                        alt=&quot;&quot;
+                      /&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;product-image col-lg-3&quot;&gt;
+                      &lt;img class=&quot;img-small&quot; src=&quot;&quot; alt=&quot;&quot; /&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        
+                &lt;div class=&quot;products-info col-lg-6&quot;&gt;
+                  &lt;div class=&quot;products-info-detail&quot;&gt;
+                    &lt;h2&gt;Murdering Last Year&lt;/h2&gt;
+                    &lt;p class=&quot;price&quot;&gt;$&lt;span&gt;19.00&lt;/span&gt;&lt;/p&gt;
+                    &lt;p class=&quot;vendor&quot;&gt;Vendor: &lt;span&gt;Thai&lt;/span&gt;&lt;/p&gt;
+                    &lt;p class=&quot;amount&quot;&gt;Amount: &lt;span&gt;10&lt;/span&gt;&lt;/p&gt;
+                    &lt;p class=&quot;description&quot;&gt;Description: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+        
+                    &lt;ul&gt;
+                      &lt;li&gt;
+                        &lt;span class=&quot;label&quot;&gt;Book name:&lt;/span&gt;
+                        &lt;span class=&quot;des book-name&quot;&gt;Murdering Last Year&lt;/span&gt;
+                      &lt;/li&gt;
+                      &lt;li&gt;
+                        &lt;span class=&quot;label&quot;&gt;Author Name&lt;/span&gt;
+                        &lt;span class=&quot;des author&quot;&gt;Thai&lt;/span&gt;
+                      &lt;/li&gt;
+                      &lt;li&gt;
+                        &lt;span class=&quot;label&quot;&gt;Item Publish Date&lt;/span&gt;
+                        &lt;span class=&quot;des&quot;&gt;2021 / 02 / 28&lt;/span&gt;
+                      &lt;/li&gt;
+                    &lt;/ul&gt;
+        
+                    &lt;!-- Select amount --&gt;
+                    &lt;label for=&quot;quantity&quot;&gt;Select quantity: &lt;/label&gt;
+                    &lt;input
+                      type=&quot;number&quot;
+                      id=&quot;quantity&quot;
+                      name=&quot;quantity&quot;
+                      min=&quot;1&quot;
+                      max=&quot;10&quot;
+                      value=&quot;1&quot;
+                    /&gt;
+                    &lt;!-- Modal1 --&gt;
+                    &lt;button
+                      class=&quot;btn&quot;
+                      type=&quot;button&quot;
+                      data-bs-toggle=&quot;modal&quot;
+                      data-bs-target=&quot;#modal1&quot;
+                    &gt;
+                      &lt;i class=&quot;bi bi-airplane-fill&quot;&gt;&lt;/i&gt; &lt;span&gt;Shipping&lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;div
+                      class=&quot;modal fade&quot;
+                      id=&quot;modal1&quot;
+                      tabindex=&quot;-1&quot;
+                      aria-labelledby=&quot;exampleModalLabel&quot;
+                      aria-hidden=&quot;true&quot;
+                    &gt;
+                      &lt;div class=&quot;modal-dialog&quot;&gt;
+                        &lt;div class=&quot;modal-content&quot;&gt;
+                          &lt;div class=&quot;modal-header&quot;&gt;
+                            &lt;h1 class=&quot;modal-title fs-5&quot; id=&quot;exampleModalLabel&quot;&gt;
+                              Shipping policy of our store
+                            &lt;/h1&gt;
+                            &lt;button
+                              type=&quot;button&quot;
+                              class=&quot;btn-close&quot;
+                              data-bs-dismiss=&quot;modal&quot;
+                              aria-label=&quot;Close&quot;
+                            &gt;&lt;/button&gt;
+                          &lt;/div&gt;
+                          &lt;div class=&quot;modal-body&quot;&gt;
+                            &lt;p&gt;
+                              For all ecommerce businesses, one of the best ways to
+                              increase order volume is to build trust with online
+                              shoppers as they navigate your online store. Developing a
+                              detailed shipping policy that is easily found on your
+                              website is a great way to do this.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                              1-2 business days (Typically by end of day) &lt;br /&gt;
+                              30 days money back guaranty &lt;br /&gt;
+                              24/7 live support &lt;br /&gt;
+                              odio dignissim qui blandit praesent &lt;br /&gt;
+                              luptatum zzril delenit augue duis dolore &lt;br /&gt;
+                              te feugait nulla facilisi.
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- Modal2 --&gt;
+                    &lt;button
+                      class=&quot;btn&quot;
+                      type=&quot;button&quot;
+                      data-bs-toggle=&quot;modal&quot;
+                      data-bs-target=&quot;#modal2&quot;
+                    &gt;
+                      &lt;i class=&quot;bi bi-envelope-fill&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;Ask About This Product&lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;div
+                      class=&quot;modal fade&quot;
+                      id=&quot;modal2&quot;
+                      tabindex=&quot;-1&quot;
+                      aria-labelledby=&quot;exampleModalLabel&quot;
+                      aria-hidden=&quot;true&quot;
+                    &gt;
+                      &lt;div class=&quot;modal-dialog&quot;&gt;
+                        &lt;div class=&quot;modal-content&quot;&gt;
+                          &lt;div class=&quot;modal-header&quot;&gt;
+                            &lt;h1 class=&quot;modal-title fs-5&quot; id=&quot;exampleModalLabel&quot;&gt;
+                              Have a question?
+                            &lt;/h1&gt;
+                            &lt;button
+                              type=&quot;button&quot;
+                              class=&quot;btn-close&quot;
+                              data-bs-dismiss=&quot;modal&quot;
+                              aria-label=&quot;Close&quot;
+                            &gt;&lt;/button&gt;
+                          &lt;/div&gt;
+                          &lt;div class=&quot;modal-body&quot;&gt;
+                            &lt;div class=&quot;mb-3&quot;&gt;
+                              &lt;input class=&quot;form-control&quot; placeholder=&quot;Name*&quot; /&gt;
+                            &lt;/div&gt;
+        
+                            &lt;div class=&quot;mb-3&quot;&gt;
+                              &lt;input class=&quot;form-control&quot; placeholder=&quot;Email*&quot; /&gt;
+                            &lt;/div&gt;
+        
+                            &lt;div class=&quot;mb-3&quot;&gt;
+                              &lt;input class=&quot;form-control&quot; placeholder=&quot;Phone*&quot; /&gt;
+                            &lt;/div&gt;
+        
+                            &lt;div class=&quot;mb-3&quot;&gt;
+                              &lt;textarea
+                                class=&quot;form-control&quot;
+                                id=&quot;exampleFormControlTextarea1&quot;
+                                rows=&quot;3&quot;
+                                placeholder=&quot;Write message&quot;
+                              &gt;&lt;/textarea&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+        
+                          &lt;div class=&quot;modal-footer&quot;&gt;
+                            &lt;button type=&quot;button&quot; id=&quot;send&quot; class=&quot;btn btn-primary&quot;&gt;
+                              Send message
+                            &lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;input id=&quot;btn-buy&quot; type=&quot;submit&quot; name=&quot;button&quot; value=&quot;Buy it now&quot;/&gt;
+        
+                    &lt;div class=&quot;share-pay&quot;&gt;
+                      &lt;p&gt;Categories: Latest&lt;/p&gt;
+                      &lt;p id=&quot;share&quot;&gt;
+                        Share:
+                        &lt;a href=&quot;&quot;
+                          &gt;&lt;img src=&quot;../image/image-icon/facebook.png&quot; alt=&quot;&quot;
+                        /&gt;&lt;/a&gt;
+                        &lt;a href=&quot;&quot;
+                          &gt;&lt;img src=&quot;../image/image-icon/twitter.png&quot; alt=&quot;&quot;
+                        /&gt;&lt;/a&gt;
+                        &lt;a href=&quot;&quot;
+                          &gt;&lt;img src=&quot;../image/image-icon/tiktok.png&quot; alt=&quot;&quot;
+                        /&gt;&lt;/a&gt;
+                      &lt;/p&gt;
+                      &lt;p id=&quot;pay&quot;&gt;
+                        Guaranteed safe checkout:
+                        &lt;img src=&quot;../image/image-icon/visa.png&quot; alt=&quot;&quot; /&gt;
+                        &lt;img src=&quot;../image/image-icon/paypal.png&quot; alt=&quot;&quot; /&gt;
+                        &lt;img src=&quot;../image/image-icon/mastercard.png&quot; alt=&quot;&quot; /&gt;
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        
+              &lt;div class=&quot;review&quot;&gt;
+                &lt;div class=&quot;content-review&quot;&gt;
+        
+                  &lt;div class=&quot;label-content&quot;&gt;
+                    &lt;h3 style=&quot;color: red;&quot;&gt;Description&lt;/h3&gt;
+                    &lt;h3&gt;Reviews&lt;/h3&gt;
+                    &lt;h3&gt;Shipping Policy&lt;/h3&gt;
+                  &lt;/div&gt;
+        
+                  &lt;div class=&quot;details-content&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione consequuntur excepturi pariatur est nihil placeat, quos unde officiis ea? Eveniet, exercitationem consequatur maiores doloremque asperiores assumenda fugiat autem animi.
+                      Deserunt asperiores, placeat officia sit nihil optio voluptas soluta accusantium iusto cum eveniet expedita est dicta quisquam laborum, deleniti libero! Corrupti vel, sint minus atque laboriosam cumque! Ullam, facere ratione!
+                      Accusamus placeat, aperiam maiores provident autem ratione, molestias vel eius culpa optio voluptatum repellat a est commodi modi, velit alias vero fugit quas quidem pariatur! Obcaecati cum impedit accusamus earum.
+                      Neque eligendi dolorum voluptate unde beatae enim error deleniti reprehenderit cumque voluptates ducimus facere id officiis distinctio quidem voluptas ipsam blanditiis dicta, corporis ex eos. Voluptatum aut exercitationem dolor blanditiis!
+                      Incidunt distinctio numquam, cumque rem, accusamus pariatur maiores dicta accusantium ipsam illo sit provident nobis iste esse facere culpa. Fugit libero natus cumque magni dolor vel quia commodi perspiciatis iste!&lt;/div&gt;
+            
+                      &lt;div class=&quot;customer-review&quot;&gt;
+                        &lt;h3 style=&quot;padding-left: 20px&quot;&gt;Customer Reviews&lt;/h3&gt;
+                        &lt;p style=&quot;padding-left: 20px&quot;&gt;No reviews yet&lt;/p&gt;
+                      &lt;/div&gt;
+            
+                      &lt;div class=&quot;shipping&quot;&gt;
+                        &lt;div class=&quot;shipper&quot;&gt;
+                          &lt;p&gt;&lt;b&gt;Shipper&lt;/b&gt;: Nguyễn Thùy Dương&lt;/p&gt;
+                          &lt;img src=&quot;../image/image-background/Thuy_Duong.jpg&quot; alt=&quot;&quot;&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class=&quot;ship-content&quot;&gt;
+                          &lt;h5&gt;Work:&lt;/h5&gt;
+                          &lt;p&gt;
+                            1-2 business days (Typically by end of day) &lt;br /&gt;
+                            30 days money back guaranty &lt;br /&gt;
+                            24/7 live support &lt;br /&gt;
+                            odio dignissim qui blandit praesent &lt;br /&gt;
+                            luptatum zzril delenit augue duis dolore &lt;br /&gt;
+                            te feugait nulla facilisi.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+        
+                &lt;/div&gt;         
+              &lt;/div&gt;
+        
+              &lt;div class=&quot;related-products&quot;&gt;
+                &lt;h2&gt;Related Products&lt;/h2&gt;
+                &lt;p class=&quot;hope&quot;&gt;Other products you may want to see&lt;/p&gt;
+                &lt;div class=&quot;product-popular container&quot;&gt;
+                  &lt;div class=&quot;products row&quot;&gt;
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;8&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book9.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Many Different Kinds&lt;/h3&gt;
+                        &lt;span&gt;$70.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;9&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book10.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Numen: A Sacredr&lt;/h3&gt;
+                        &lt;span&gt;$102.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;10&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book11.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;One: Pot, Pan, Planet&lt;/h3&gt;
+                        &lt;span&gt;$27.05&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;11&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book12.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;Sale -5%&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Key To The Tarot&lt;/h3&gt;
+                        &lt;span&gt;$109.10&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        
+              &lt;div class=&quot;related-products&quot;&gt;
+                &lt;h2&gt;Custom Collections&lt;/h2&gt;
+                &lt;p class=&quot;hope&quot;&gt;Other products you may want to see&lt;/p&gt;
+                &lt;div class=&quot;product-popular container&quot;&gt;
+                  &lt;div class=&quot;products row&quot;&gt;
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;11&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book12.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;Sale -5%&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Key To The Tarot&lt;/h3&gt;
+                        &lt;span&gt;$109.10&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                          id=&quot;12&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book13.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Self-Care&lt;/h3&gt;
+                        &lt;span&gt;$59.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                        id=&quot;13&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book14.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;The Original Rider Waite&lt;/h3&gt;
+                        &lt;span&gt;$208.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+        
+                    &lt;div class=&quot;product-content py-3 col-lg-3 col-md-6&quot;&gt;
+                      &lt;a href=&quot;./product.html&quot;&gt;
+                        &lt;img
+                        id=&quot;14&quot;
+                          class=&quot;img-fluid&quot;
+                          src=&quot;../image/image-product/book3.webp&quot;
+                          alt=&quot;&quot;
+                          onClick=&quot;getId(this.id)&quot;
+                        /&gt;
+                      &lt;/a&gt;
+                      &lt;div class=&quot;product-info&quot;&gt;
+                        &lt;h3&gt;Product Media&lt;/h3&gt;
+                        &lt;span&gt;$300.00&lt;/span&gt;
+                        &lt;div class=&quot;rate&quot;&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                          &lt;i class=&quot;bi bi-star&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;   
+        
+            &lt;footer&gt;
+              &lt;div class=&quot;shop-info&quot;&gt;
+                &lt;div class=&quot;container&quot;&gt;
+                  &lt;div class=&quot;about-info&quot;&gt;
+                    &lt;h3&gt;ABOUT INFO&lt;/h3&gt;
+                    &lt;p&gt;
+                      We are a group of 4 with the theme of bookstore sales managers.
+                      Hope you guys support us.
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                      &lt;i class=&quot;bi bi-geo-alt&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;Addresss:&lt;/span&gt; IT3 UTC, Ha Noi VietNam
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                      &lt;i class=&quot;bi bi-envelope&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;Email:&lt;/span&gt; no_email00000@gmail.com
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                      &lt;i class=&quot;bi bi-telephone&quot;&gt;&lt;/i&gt;
+                      &lt;span&gt;Phone Number (tel):&lt;/span&gt; 012 345 6789
+                      &lt;a href=&quot;./code_product.html&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+                    &lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        
+              &lt;div class=&quot;content-creater&quot;&gt;
+                &lt;p&gt;
+                  Copyright HasThemes | Built with Hồng Thái, Thùy Dương, Hoàng Duy, Huy
+                  Hoàng
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/footer&gt;
+        
+            &lt;script src=&quot;../Source-JS/product.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://unpkg.com/sweetalert/dist/sweetalert.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script
+              src=&quot;https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js&quot;
+              integrity=&quot;sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3&quot;
+              crossorigin=&quot;anonymous&quot;
+            &gt;&lt;/script&gt;
+            &lt;script
+              src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js&quot;
+              integrity=&quot;sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz&quot;
+              crossorigin=&quot;anonymous&quot;
+            &gt;&lt;/script&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+
+    <h1>Code Javascript</h1>
+    <pre><code class="language-js">// console.log(localStorage.getItem(&quot;bId&quot;)); Get Id when onclicked
+        const bId = localStorage.getItem(&quot;bId&quot;);
+        
+        // List info products
+        const products = [
+          {
+            name: &quot;Murdering Last Year&quot;,
+            img: &quot;../image/image-product/b1.webp&quot;,
+            price: &quot;19.00&quot;,
+            vendor: &quot;Thai&quot;,
+            amount: 10,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;About The First Night&quot;,
+            img: &quot;../image/image-product/b2.webp&quot;,
+            price: &quot;79.00&quot;,
+            vendor: &quot;Duy&quot;,
+            amount: 32,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Food Poison&quot;,
+            img: &quot;../image/image-product/book3.webp&quot;,
+            price: &quot;79.00&quot;,
+            vendor: &quot;Hoang&quot;,
+            amount: 14,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Graphic Design School&quot;,
+            img: &quot;../image/image-product/book4.webp&quot;,
+            price: &quot;80.00&quot;,
+            vendor: &quot;Duong&quot;,
+            amount: 12,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Black Night&quot;,
+            img: &quot;../image/image-product/book5.webp&quot;,
+            price: &quot;39.00&quot;,
+            vendor: &quot;Hoang&quot;,
+            amount: 15,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Stay Healthy&quot;,
+            img: &quot;../image/image-product/book6.webp&quot;,
+            price: &quot;29.00&quot;,
+            vendor: &quot;Duong&quot;,
+            amount: 102,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Monsoon&quot;,
+            img: &quot;../image/image-product/book7.webp&quot;,
+            price: &quot;40.00&quot;,
+            vendor: &quot;Thai&quot;,
+            amount: 33,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;The Big Book Of Science&quot;,
+            img: &quot;../image/image-product/book8.webp&quot;,
+            price: &quot;28.00&quot;,
+            vendor: &quot;Hoang&quot;,
+            amount: 55,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Many Different Kinds&quot;,
+            img: &quot;../image/image-product/book9.webp&quot;,
+            price: &quot;70.00&quot;,
+            vendor: &quot;Duy&quot;,
+            amount: 13,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Numen: A Sacredr&quot;,
+            img: &quot;../image/image-product/book10.webp&quot;,
+            price: &quot;102.00&quot;,
+            vendor: &quot;Duong&quot;,
+            amount: 90,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;One: Pot, Pan, Planet&quot;,
+            img: &quot;../image/image-product/book11.webp&quot;,
+            price: &quot;27.05&quot;,
+            vendor: &quot;Thai&quot;,
+            amount: 103,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;The Key To The Tarot&quot;,
+            img: &quot;../image/image-product/book12.webp&quot;,
+            price: &quot;109.10&quot;,
+            vendor: &quot;Hoang&quot;,
+            amount: 200,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Self-Care&quot;,
+            img: &quot;../image/image-product/book13.webp&quot;,
+            price: &quot;50.00&quot;,
+            vendor: &quot;Duong&quot;,
+            amount: 20,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;The Original Rider Waite&quot;,
+            img: &quot;../image/image-product/book14.webp&quot;,
+            price: &quot;208.00&quot;,
+            vendor: &quot;Duy&quot;,
+            amount: 05,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+          {
+            name: &quot;Product Media&quot;,
+            img: &quot;../image/image-product/book3.webp&quot;,
+            price: &quot;300.00&quot;,
+            vendor: &quot;Thai&quot;,
+            amount: 34,
+            des: &quot;Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four&quot;,
+          },
+        ];
+        
+        // End info products
+        
+        // title shop
+        var titleShop = document.querySelector(&quot;.title-shop span&quot;);
+        titleShop.textContent = products[bId].name;
+        
+        // Images product
+        var productBig = document.querySelector(&quot;.product-images #img-big&quot;);
+        var productSmall = document.querySelectorAll(&quot;.product-image .img-small&quot;);
+        productBig.src = products[bId].img;
+        productSmall[3].src = products[bId].img;
+        
+        for (let i = 0; i &lt; productSmall.length; i++) {
+          productSmall[i].onclick = () =&gt; {
+            productBig.src = productSmall[i].src;
+          };
+        }
+        
+        // Name product
+        var productName = document.querySelector(&quot;.products-info-detail h2&quot;);
+        var productName2 = document.querySelector(&quot;.book-name&quot;);
+        productName.textContent = products[bId].name;
+        productName2.textContent = products[bId].name;
+        
+        // Price product
+        var productPrice = document.querySelector(&quot;.products-info-detail .price span&quot;);
+        productPrice.textContent = products[bId].price;
+        
+        // Vendor product
+        var productVendor = document.querySelector(&quot;.products-info-detail .vendor span&quot;);
+        var author = document.querySelector(&quot;.author&quot;);
+        productVendor.textContent = products[bId].vendor;
+        author.textContent = products[bId].vendor;
+        
+        // Amount product
+        var productAmount = document.querySelector(&quot;.products-info-detail .amount span&quot;);
+        productAmount.textContent = products[bId].amount;
+        
+        // Description product
+        var productDescription = document.querySelector(
+          &quot;.products-info-detail .description span&quot;
+        );
+        productDescription.textContent = products[bId].des;
+        
+        // Effect Buy
+        var btnBuy = document.getElementById(&quot;btn-buy&quot;);
+        btnBuy.onclick = () =&gt; {
+            swal(&quot;Good job!&quot;, &quot;Successful purchase!&quot;, &quot;success&quot;);
+        };
+        
+        // Review
+        var labelContent = document.querySelectorAll(&quot;.label-content h3&quot;);
+        var displayContent = document.querySelector(&apos;.display-content&apos;);
+        var customerReview = document.querySelector(&apos;.customer-review&apos;);
+        var shipping = document.querySelector(&apos;.shipping&apos;);
+        
+        labelContent[0].onclick = () =&gt; {
+            labelContent[0].style.color = &apos;red&apos;;
+            labelContent[1].style.color = &apos;#212529&apos;;
+            labelContent[2].style.color = &apos;#212529&apos;;
+        
+            displayContent.style.display = &apos;block&apos;;
+            customerReview.style.display = &apos;none&apos;;
+            shipping.style.display = &apos;none&apos;;
+        }
+        
+        labelContent[1].onclick = () =&gt; {
+            labelContent[1].style.color = &apos;red&apos;;
+            labelContent[0].style.color = &apos;#212529&apos;;
+            labelContent[2].style.color = &apos;#212529&apos;;
+        
+            displayContent.style.display = &apos;none&apos;;
+            customerReview.style.display = &apos;block&apos;;
+            shipping.style.display = &apos;none&apos;;
+        }
+        
+        labelContent[2].onclick = () =&gt; {
+            labelContent[2].style.color = &apos;red&apos;;
+            labelContent[1].style.color = &apos;#212529&apos;;
+            labelContent[0].style.color = &apos;#212529&apos;;
+        
+            customerReview.style.display = &apos;none&apos;;
+            displayContent.style.display = &apos;none&apos;;
+            shipping.style.display = &apos;flex&apos;;
+        }</code></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>
