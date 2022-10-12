@@ -1,16 +1,15 @@
 var btnSubmit = document.querySelector('.submit input');
 
 btnSubmit.onclick = () => {
-    var inputs = document.querySelectorAll('.inputBox input');
+    var inputs = document.querySelectorAll('.getvalue');
     console.log(inputs.length);
     var cnt = 0;
     for(let i = 0; i < inputs.length; i++) {
-      if(inputs[i].value !== 0) {
+      if(inputs[i].value.length != 0) {
         cnt++;
       }
     }
     if(cnt < 5) {
-      // console.log(cnt);
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
