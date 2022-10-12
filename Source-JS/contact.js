@@ -9,7 +9,7 @@ btnSubmit.onclick = () => {
         cnt++;
       }
     }
-    if(cnt < 5) {
+    if(cnt <= 5) {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
