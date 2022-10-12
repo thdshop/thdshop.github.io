@@ -2,7 +2,7 @@ var btnSubmit = document.querySelector('.submit input');
 
 btnSubmit.onclick = () => {
     var inputs = document.querySelectorAll('.getvalue');
-    console.log(inputs.length);
+    console.log(inputs);
     var cnt = 0;
     for(let i = 0; i < inputs.length; i++) {
       if(inputs[i].value.length != 0) {
@@ -12,7 +12,7 @@ btnSubmit.onclick = () => {
     if(cnt <= 5) {
       Swal.fire({
         icon: 'error',
-        title: 'Oops...',
+        title: 'Oops..',
         text: 'Please enter full information',
       })
     }
@@ -32,7 +32,7 @@ btnSubmit.onclick = () => {
             'Your request has been sent!',
             'success',
             setTimeout(() => {
-                window.location.assign('https://thdshop.github.io/')
+                window.location.assign('./index.html');
             }, 3000)
           )
         } 
