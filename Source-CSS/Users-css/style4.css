@@ -2,7 +2,10 @@
     width: 80%;
     margin:130px auto;
 }
-
+.info
+{
+    margin-left: 50px;
+}
 .form-contact input,
 .form-contact #pay {
     border-radius: 3px;
@@ -51,7 +54,7 @@
 .formBox
 {
     margin-top: 20px;
-    width: 90%;
+    width: 100%;
 }
 
 .inputBox
