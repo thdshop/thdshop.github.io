@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../Source-CSS/Public.css/grid.css">
     <link rel="stylesheet" href="../Source-CSS/Public.css/body.css">
     <link rel="stylesheet" href="../Source-CSS/Public.css/color.css">
-    <link rel="stylesheet" href="../Source-CSS/Users-css/style4.css">
-    <title>Contact Us - THD Shop</title>
+    <link rel="stylesheet" href="../Source-CSS/Users-css/style4_faq.css">
+    <title>Frequently Asked Question - THD Shop</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
@@ -38,7 +38,6 @@
           <li class="nav-item">
             <a class="nav-link" href="./contact.html" style="color: var(--red);">Contact Us</a>
           </li>
-          
         </ul>
 
         <ul id="icons" class="navbar-nav ml-auto">
@@ -63,52 +62,70 @@
     </div>
   </nav>
 
-  <div class="form-contact container">
-    <div class="row">
-      <div class="col-lg-8 col-md-12 col-12">
-        <h2>Contact Us</h2>
-        <h3>Having troubles while using our services? Don't worry!
-            <br>Please fill in this form to tell us the problem!
-            <br>If you don't mind, check out the <a class="link" href="./faq.html">FAQ</a> first !
-        </h3>
-        <div class="formBox">
-          <div class="inputBox w50">
-            <input class="getvalue" type="text" required>
-            <span>First Name*</span>
+  <div class="accordion">
+    <div class="col-lg-8 col-md-12 col-12">
+        <div class="htitle">
+          <h2>Frequently Asked Questions</h2>
+          <h3>Check out this usual problems to figure it out if you can do it yourself!
+            <br>Come back to <a class="link" href="./contact.html">Contact Us</a> when ur ready !</h3>
+        </div>
+        <div class="contentBx">
+          <div class="label">How much is delivery? </div>
+          <div class="content">
+            <p>
+              We are delighted to be able to offer FREE delivery on all orders, regardless of size, value or destination. Enjoy our delay shipping !<br>
+              Sorry, but with COVID 19 is still terrible. We need to take some kinds of hillarious fee to bother you, B!TCH !
+            </p>
           </div>
-          <div class="inputBox w50">
-            <input class="getvalue" type="text" required>
-            <span>Last Name*</span>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">Which countries and regions do you deliver to? </div>
+          <div class="content">
+            <p>
+              We're sorry if your country or region isn't on the list, we review the list of delivery locations regularly with a view to expanding these where possible.<br>
+              Please note you are responsible for any local taxes and shipping. For deliveries to EU, the prices on our website and what you pay at checkout is the final price.
+            </p>
           </div>
-          <div class="inputBox w50">
-            <input class="getvalue" type="text" required>
-            <span>Subject*</span>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">My order is processing when will it ship? </div>
+          <div class="content">
+            <p>
+              If your order is still processing, that means that we are waiting for your item from our suppliers. As soon as it has shipped we will send you an email to let you know.<br>
+              You can also check your order status here. If you were logged in when you placed the order, you can also have a look at your order history.
+            </p>
           </div>
-          <div class="inputBox w50">
-            <input class="getvalue" type="tel" required>
-            <span>Phone Number</span>
+        </div>
+        <div class="contentBx">
+          <div class="label">When will my order arrive? </div>
+          <div class="content">
+            <p>
+              Books can take different times to get to you, it really depends on the supplier for each book. Each books detail page will tell you when you should expect delivery for that book. <br> 
+              The estimated delivery time we show on our product pages is based on the country we believe you are in. If you are delivering to another country, the estimated delivery timeframe will be different and once your book/s have been shipped they will normally be delivered within the time listed below.
+            </p>
           </div>
-          <div class="inputBox w50">
-            <input class="getvalue" type="text" required>
-            <span>Email Address*</span>
-          </div>
-          <div class="inputBox w100">
-            <textarea class="getvalue" required></textarea>
-            <span>Describe your problem ...*</span>
-          </div>
-          <div class="submit">
-            <input type="submit" value="Submit">
+        </div>
+        <div class="contentBx">
+          <div class="label">How do I change the delivery address for my order? </div>
+          <div class="content">
+            <p>
+              Providing your order hasn't already shipped, please contact us via the online contact form and ensure you include your order number and the new delivery address including your full name, new address, etc ...<br> 
+              Please note that we are unable to amend delivery addresses from one EU country to another EU country for tax reasons.
+            </p>
           </div>
         </div>
       </div>
+      
 
       <div class="col-lg-4 col-md-12 col-12">
         <div class="info">
-          <img src="../image/image-contactus/contactus.png" alt="">
+          <img src="../image/image-contactus/faq.png" alt="">
           <p>
             Group 4, Class IT3<br>University of Transportation & Communications<br>3 Cau Giay St., Lang Thuong, Dong Da, Ha Noi.
           </p>
-
+  
           <div class="info-detail">
             Don't want to use the form ? Contact us at : <br>
             <i class="bi bi-envelope-paper-fill"> Email: </i>  <a href="mailto:duy.ac.tb@gmail.com">duy.ac.tb@gmail.com</a><br>
@@ -117,7 +134,12 @@
           </div>
         </div>
       </div>
+
+
     </div>
+      
+     <!--  -->
+        
   </div>
 
   <footer>
@@ -146,8 +168,14 @@
       <p>Designed by HasThemes | Re-created by Hồng Thái, Thùy Dương, Hoàng Duy, Huy Hoàng</p>
     </div>
   </footer>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../Source-JS/contact.js"></script>
+    <script>
+      const accordion = document.getElementsByClassName('contentBx');
+      for (i = 0; i < accordion.length; i++){
+        accordion[i].addEventListener('click',function(){
+          this.classList.toggle('active');
+        })
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
