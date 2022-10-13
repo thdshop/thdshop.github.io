@@ -24,8 +24,12 @@
 }
 
 .info .info-detail i {
-    color: var(--red2);
+    color: var(--red);
+    text-decoration: none;
+}
 
+.info .info-detail a:hover {
+    text-decoration: underline;
 }
 
 .info .info-detail a {
