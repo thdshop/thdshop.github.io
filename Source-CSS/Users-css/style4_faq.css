@@ -88,6 +88,7 @@
         height: 275px;
     }
     .accordion{
+        width: 100%;
         display: block;
     }
 }
