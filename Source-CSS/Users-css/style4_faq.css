@@ -90,6 +90,10 @@
     .accordion{
         display: block;
     }
+    .accordion .contentBx.active .label::before
+    {
+    top: 20%;
+    }
 }
 
 .info
