@@ -12,6 +12,7 @@ body {
 }
 
 .navbar {
+  z-index: 1;
   background-color: #fff;
   position: fixed;
   width: 100%;
