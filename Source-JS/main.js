@@ -1,54 +1,68 @@
 // Troll
-var icons = document.querySelectorAll('#icons a');
-icons[0].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
-icons[1].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
-icons[2].onclick = () => {swal("Ú òa", "Không có gì đâu nhé :>")};
+var icons = document.querySelectorAll("#icons a");
+var overlay = document.querySelector(".overlay");
+var exit = document.querySelector(".exit");
+
+icons[0].onclick = () => {
+  overlay.style.visibility = "visible";
+  overlay.style.transform = "translateX(0%)";
+  exit.onclick = () => {
+    overlay.style.transform = "translateX(100%)";
+    overlay.style.visibility = "hidden";
+  };
+};
+icons[1].onclick = () => {
+  swal("Ú òa", "Không có gì đâu nhé :>");
+};
+icons[2].onclick = () => {
+  swal("Ú òa", "Không có gì đâu nhé :>");
+};
 
 // Slider content
-var sliderContent = document.getElementById('slider-ct');
+var sliderContent = document.getElementById("slider-ct");
 setTimeout(() => {
-	sliderContent.style.transform = "translateX(70px)";
-	sliderContent.style.opacity = "1";
+  sliderContent.style.transform = "translateX(70px)";
+  sliderContent.style.opacity = "1";
 }, 1000);
 // End Slider content
 
 // Slideshow
-var counter = 1, start = 0;
+var counter = 1,
+  start = 0;
 setInterval(() => {
-	document.getElementById('radio' + counter).checked = true;
-	counter++;
-	if(counter > 3) {
-		counter = 1;
-	}
-	setTimeout(() => {
-		sliderContent.style.transform = "translateX(70px)";
-		sliderContent.style.opacity = "1";
-	}, 1500);
-	if(start) sliderContent.style.opacity = "0";
-	start = 1;
+  document.getElementById("radio" + counter).checked = true;
+  counter++;
+  if (counter > 3) {
+    counter = 1;
+  }
+  setTimeout(() => {
+    sliderContent.style.transform = "translateX(70px)";
+    sliderContent.style.opacity = "1";
+  }, 1500);
+  if (start) sliderContent.style.opacity = "0";
+  start = 1;
 }, 9000);
 // End slideshow
 
 // Countdown
 var countDownDate = new Date("Nov 20, 2022 00:00:00").getTime();
-var x = setInterval(function() {
+var x = setInterval(function () {
+  var now = new Date().getTime();
 
-var now = new Date().getTime();
-    
-var distance = countDownDate - now;
-    
-var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-+ minutes + "m " + seconds + "s ";
-    
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("demo").innerHTML = "EXPIRED";
-	}
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("countdown").innerHTML =
+    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
 }, 1000);
 // End countdown
 
