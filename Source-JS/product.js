@@ -81,7 +81,7 @@ const products = [
     price: "102.00",
     vendor: "Duong",
     amount: 90,
-    des: "Every talented sales rep or manager wants to take their career to a higher level. But if you’re only focused on meeting quotas and expanding your territory, then you’re doing it all wrong. You have to think differently—to step outside your comfort zone and play offense instead of defense—if you’re really going to go places.",
+    des: "Every talented sales rep or manager wants to take their career to a higher level. But if you're only focused on meeting quotas and expanding your territory, then you're doing it all wrong. You have to think differently—to step outside your comfort zone and play offense instead of defense—if you're really going to go places.",
   },
   {
     name: "One: Pot, Pan, Planet",
@@ -97,7 +97,7 @@ const products = [
     price: "109.10",
     vendor: "Hoang",
     amount: 200,
-    des: "There is a spiritual component to tarot cards, which may appeal to those who don’t associate with organized religion. That said, tarot may go against your faith, or you may find it hard to believe. It’s also not a replacement for therapy, though it can complement it.",
+    des: "There is a spiritual component to tarot cards, which may appeal to those who don't associate with organized religion. That said, tarot may go against your faith, or you may find it hard to believe. It's also not a replacement for therapy, though it can complement it.",
   },
   {
     name: "Self-Care",
@@ -105,7 +105,7 @@ const products = [
     price: "50.00",
     vendor: "Duong",
     amount: 20,
-    des: "Taking care of yourself can feel like a really big task, but it doesn’t have to be overwhelming. Learn to manage your physical, mental, and emotional health so that you can enjoy your day-to-day life more and reduce the risk of various health problems later down the road.",
+    des: "Taking care of yourself can feel like a really big task, but it doesn't have to be overwhelming. Learn to manage your physical, mental, and emotional health so that you can enjoy your day-to-day life more and reduce the risk of various health problems later down the road.",
   },
   {
     name: "The Original Rider Waite",
@@ -113,7 +113,7 @@ const products = [
     price: "208.00",
     vendor: "Duy",
     amount: 05,
-    des: "The Original Rider-Waite(R) Tarot Pack includes a Celtic Cross card-spread guide and an updated version of The Pictorial Key to the Tarot, written by Arthur Edward Waite. This new edition includes a thoughtful foreword by Liz Greene, who not only places tarot in a historical context, but also situates it in a broader context. She describes tarot as "a series of pictorial portrayals of the archetypal human life-journey."",
+    des: "The Original Rider-Waite(R) Tarot Pack includes a Celtic Cross card-spread guide and an updated version of The Pictorial Key to the Tarot, written by Arthur Edward Waite. This new edition includes a thoughtful foreword by Liz Greene, who not only places tarot in a historical context, but also situates it in a broader context. She describes tarot as a series of pictorial portrayals of the archetypal human life journey.",
   },
   {
     name: "Product Media",
