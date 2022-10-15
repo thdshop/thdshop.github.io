@@ -27,8 +27,8 @@
     <link rel="stylesheet" href="../Source-CSS/Public.css/body.css" />
     <link rel="stylesheet" href="../Source-CSS/Public.css/color.css" />
     <link rel="stylesheet" href="../Source-CSS/Users-css/product.css" />
-    <link rel="stylesheet" href="../Source-CSS/Users-css/products.css">
-    <link rel="stylesheet" href="../Source-CSS/Users-css/troll.css">
+    <link rel="stylesheet" href="../Source-CSS/Users-css/products.css" />
+    <link rel="stylesheet" href="../Source-CSS/Users-css/troll.css" />
     <title>Book Store</title>
   </head>
 
@@ -90,6 +90,41 @@
         </div>
       </div>
     </nav>
+
+    <div class="overlay">
+      <i class="bi bi-x-circle exit"></i>
+      <div class="search-box">
+        <input type="text" placeholder="Search here" />
+        <i class="bi bi-search"></i>
+      </div>
+
+      <div class="hide">
+        <h3>You may like</h3>
+        <p>Murdering Last Year</p>
+        <p>About The First Night</p>
+      </div>
+    </div>
+
+    <div class="overlay2">
+      <div class="cart-box">
+        <div class="title-cart">
+          <h3>Shoping cart</h3>
+          <i class="bi bi-x-circle exit"></i>
+          <hr />
+        </div>
+        <div class="content-cart">
+          <h4>Empty...</h4>
+        </div>
+
+        <div class="footer-cart">
+          <div class="total">
+            <h4>Total:</h4>
+            <span>$0</span>
+          </div>
+          <a href="#!">CHECKOUT</a>
+        </div>
+      </div>
+    </div>
 
     <section class="title-shop">
       <h1><a href="./index.html">HOME</a> / <span>PRODUCTS</span></h1>
@@ -272,7 +307,12 @@
               </div>
             </div>
 
-            <input id="btn-buy" type="submit" name="button" value="Buy it now"/>
+            <input
+              id="btn-buy"
+              type="submit"
+              name="button"
+              value="Buy it now"
+            />
 
             <div class="share-pay">
               <p>Categories: Latest</p>
@@ -301,47 +341,59 @@
 
       <div class="review">
         <div class="content-review">
-
           <div class="label-content">
-            <h3 style="color: red;">Description</h3>
+            <h3 style="color: red">Description</h3>
             <h3>Reviews</h3>
             <h3>Shipping Policy</h3>
           </div>
 
           <div class="details-content">
-            <div class="display-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione consequuntur excepturi pariatur est nihil placeat, quos unde officiis ea? Eveniet, exercitationem consequatur maiores doloremque asperiores assumenda fugiat autem animi.
-              Deserunt asperiores, placeat officia sit nihil optio voluptas soluta accusantium iusto cum eveniet expedita est dicta quisquam laborum, deleniti libero! Corrupti vel, sint minus atque laboriosam cumque! Ullam, facere ratione!
-              Accusamus placeat, aperiam maiores provident autem ratione, molestias vel eius culpa optio voluptatum repellat a est commodi modi, velit alias vero fugit quas quidem pariatur! Obcaecati cum impedit accusamus earum.
-              Neque eligendi dolorum voluptate unde beatae enim error deleniti reprehenderit cumque voluptates ducimus facere id officiis distinctio quidem voluptas ipsam blanditiis dicta, corporis ex eos. Voluptatum aut exercitationem dolor blanditiis!
-              Incidunt distinctio numquam, cumque rem, accusamus pariatur maiores dicta accusantium ipsam illo sit provident nobis iste esse facere culpa. Fugit libero natus cumque magni dolor vel quia commodi perspiciatis iste!</div>
-    
-              <div class="customer-review">
-                <h3 style="padding-left: 20px">Customer Reviews</h3>
-                <p style="padding-left: 20px">No reviews yet</p>
-              </div>
-    
-              <div class="shipping">
-                <div class="shipper">
-                  <p><b>Shipper</b>: Nguyễn Thùy Dương</p>
-                  <img src="../image/image-background/Thuy_Duong.jpg" alt="">
-                </div>
+            <div class="display-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              ratione consequuntur excepturi pariatur est nihil placeat, quos
+              unde officiis ea? Eveniet, exercitationem consequatur maiores
+              doloremque asperiores assumenda fugiat autem animi. Deserunt
+              asperiores, placeat officia sit nihil optio voluptas soluta
+              accusantium iusto cum eveniet expedita est dicta quisquam laborum,
+              deleniti libero! Corrupti vel, sint minus atque laboriosam cumque!
+              Ullam, facere ratione! Accusamus placeat, aperiam maiores
+              provident autem ratione, molestias vel eius culpa optio voluptatum
+              repellat a est commodi modi, velit alias vero fugit quas quidem
+              pariatur! Obcaecati cum impedit accusamus earum. Neque eligendi
+              dolorum voluptate unde beatae enim error deleniti reprehenderit
+              cumque voluptates ducimus facere id officiis distinctio quidem
+              voluptas ipsam blanditiis dicta, corporis ex eos. Voluptatum aut
+              exercitationem dolor blanditiis! Incidunt distinctio numquam,
+              cumque rem, accusamus pariatur maiores dicta accusantium ipsam
+              illo sit provident nobis iste esse facere culpa. Fugit libero
+              natus cumque magni dolor vel quia commodi perspiciatis iste!
+            </div>
 
-                <div class="ship-content">
-                  <h5>Work:</h5>
-                  <p>
-                    1-2 business days (Typically by end of day) <br />
-                    30 days money back guaranty <br />
-                    24/7 live support <br />
-                    odio dignissim qui blandit praesent <br />
-                    luptatum zzril delenit augue duis dolore <br />
-                    te feugait nulla facilisi.
-                  </p>
-                </div>
-                
+            <div class="customer-review">
+              <h3 style="padding-left: 20px">Customer Reviews</h3>
+              <p style="padding-left: 20px">No reviews yet</p>
+            </div>
+
+            <div class="shipping">
+              <div class="shipper">
+                <p><b>Shipper</b>: Nguyễn Thùy Dương</p>
+                <img src="../image/image-background/Thuy_Duong.jpg" alt="" />
               </div>
+
+              <div class="ship-content">
+                <h5>Work:</h5>
+                <p>
+                  1-2 business days (Typically by end of day) <br />
+                  30 days money back guaranty <br />
+                  24/7 live support <br />
+                  odio dignissim qui blandit praesent <br />
+                  luptatum zzril delenit augue duis dolore <br />
+                  te feugait nulla facilisi.
+                </p>
+              </div>
+            </div>
           </div>
-
-        </div>         
+        </div>
       </div>
 
       <div class="related-products">
@@ -502,7 +554,7 @@
             <div class="product-content py-3 col-lg-3 col-md-6">
               <a href="./product.html">
                 <img
-                id="13"
+                  id="13"
                   class="img-fluid"
                   src="../image/image-product/book14.webp"
                   alt=""
@@ -525,7 +577,7 @@
             <div class="product-content py-3 col-lg-3 col-md-6">
               <a href="./product.html">
                 <img
-                id="14"
+                  id="14"
                   class="img-fluid"
                   src="../image/image-product/book3.webp"
                   alt=""
@@ -547,7 +599,7 @@
           </div>
         </div>
       </div>
-    </div>   
+    </div>
 
     <footer>
       <div class="shop-info">
