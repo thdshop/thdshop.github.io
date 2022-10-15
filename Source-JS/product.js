@@ -9,7 +9,7 @@ const products = [
     price: "19.00",
     vendor: "Thai",
     amount: 10,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four.",
   },
   {
     name: "About The First Night",
@@ -17,7 +17,7 @@ const products = [
     price: "79.00",
     vendor: "Duy",
     amount: 32,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "A man and woman meet and try to have a romantic affair, despite their personal problems and the interference of their disapproving friends.",
   },
   {
     name: "Food Poison",
@@ -25,7 +25,7 @@ const products = [
     price: "79.00",
     vendor: "Hoang",
     amount: 14,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Learn more about this foodborne illness that can cause nausea, vomiting and diarrhea within hours of eating contaminated food.",
   },
   {
     name: "Graphic Design School",
@@ -33,7 +33,7 @@ const products = [
     price: "80.00",
     vendor: "Duong",
     amount: 12,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "The best graphic design books offer insights and inspiration for graphic designers of all types. They offer pages of insider knowledge, anecdotes, ideas and even career advice.",
   },
   {
     name: "Black Night",
@@ -41,7 +41,7 @@ const products = [
     price: "39.00",
     vendor: "Hoang",
     amount: 15,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Learn about the animals that make the forest their home by day and at night. This creative approach of looking at animal habitats in the forest puts readers close up to deer, bear, quail, crickets, mice, foxes, and more.",
   },
   {
     name: "Stay Healthy",
@@ -49,7 +49,7 @@ const products = [
     price: "29.00",
     vendor: "Duong",
     amount: 102,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Regular physical activity is one of the most important things you can do for your health. Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities.",
   },
   {
     name: "Monsoon",
@@ -57,7 +57,7 @@ const products = [
     price: "40.00",
     vendor: "Thai",
     amount: 33,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "A seasonal prevailing wind in the region of South and Southeast Asia, blowing from the southwest between May and September and bringing rain (the wet monsoon ), or from the northeast between October and April (the dry monsoon ).",
   },
   {
     name: "The Big Book Of Science",
@@ -65,15 +65,15 @@ const products = [
     price: "28.00",
     vendor: "Hoang",
     amount: 55,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "The intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment.",
   },
   {
-    name: "Many Different Kinds",
+    name: "By The Air",
     img: "../image/image-product/book9.webp",
     price: "70.00",
     vendor: "Duy",
     amount: 13,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "In life, there are no accidents. Things happen for a reason. Date with a purpose as you watch how, your date treat others, while keeping an open mind, as your willingness to learn from their mistakes while minimizing own. While dating, give very little of yourself, but once fully committed, give it all and rejoice with the happiness that follows with it.",
   },
   {
     name: "Numen: A Sacredr",
@@ -81,7 +81,7 @@ const products = [
     price: "102.00",
     vendor: "Duong",
     amount: 90,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Every talented sales rep or manager wants to take their career to a higher level. But if you’re only focused on meeting quotas and expanding your territory, then you’re doing it all wrong. You have to think differently—to step outside your comfort zone and play offense instead of defense—if you’re really going to go places.",
   },
   {
     name: "One: Pot, Pan, Planet",
@@ -89,7 +89,7 @@ const products = [
     price: "27.05",
     vendor: "Thai",
     amount: 103,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "A night sky with billions of stars always puts my mind at ease. Whenever I get frustrated, I look at the stars and they will instantly cheer me up. All of a sudden, my problems seem so tiny and I feel like I can conquer them all. Overall, a star-lit sky is truly magical and surreal, just like heaven.",
   },
   {
     name: "The Key To The Tarot",
@@ -97,7 +97,7 @@ const products = [
     price: "109.10",
     vendor: "Hoang",
     amount: 200,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "There is a spiritual component to tarot cards, which may appeal to those who don’t associate with organized religion. That said, tarot may go against your faith, or you may find it hard to believe. It’s also not a replacement for therapy, though it can complement it.",
   },
   {
     name: "Self-Care",
@@ -105,7 +105,7 @@ const products = [
     price: "50.00",
     vendor: "Duong",
     amount: 20,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Taking care of yourself can feel like a really big task, but it doesn’t have to be overwhelming. Learn to manage your physical, mental, and emotional health so that you can enjoy your day-to-day life more and reduce the risk of various health problems later down the road.",
   },
   {
     name: "The Original Rider Waite",
@@ -113,7 +113,7 @@ const products = [
     price: "208.00",
     vendor: "Duy",
     amount: 05,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "The Original Rider-Waite(R) Tarot Pack includes a Celtic Cross card-spread guide and an updated version of The Pictorial Key to the Tarot, written by Arthur Edward Waite. This new edition includes a thoughtful foreword by Liz Greene, who not only places tarot in a historical context, but also situates it in a broader context. She describes tarot as "a series of pictorial portrayals of the archetypal human life-journey."",
   },
   {
     name: "Product Media",
@@ -121,7 +121,7 @@ const products = [
     price: "300.00",
     vendor: "Thai",
     amount: 34,
-    des: "Crime, murder and mass shootings have dominated headlines this year. Just over the weekend, a shooting in Cincinnati wounded nine people, and another in Detroit killed one and wounded four",
+    des: "Media production means the making of a motion picture, television show, video, commercial, Internet video, or other viewable programming provided to viewers via a movie theater or transmitted through broadcast radio wave, cable, satellite, wireless, or Internet.",
   },
 ];
 
