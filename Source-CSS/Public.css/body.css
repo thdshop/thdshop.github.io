@@ -52,39 +52,38 @@ body {
 #icons .nav-item {
   padding-left: 20px;
 }
-
+/* Search box */
 .overlay {
   transform: translateX(100%);
   visibility: hidden;
-  height: 30%;
-  width: 35%;
+  height: 25%;
+  width: 30%;
   position: fixed;
   z-index: 1;
   top: 10%;
   right: 0;
   background-color: #fff;
-  /* opacity: 0.93; */
   transition: 0.5s ease;
 }
 
-.exit {
+.overlay .exit {
   position: relative;
   top: 10%;
-  left: 90%;
-  font-size: 24px;
+  left: 94%;
+  font-size: 19px;
   text-align: center;
   cursor: pointer;
   color: #333;
 }
 
-.exit:hover {
+.overlay .exit:hover {
   color: var(--red);
 }
 
 .hide {
   position: relative;
-  top: 30%;
-  left: 15%;
+  top: 20%;
+  left: 10%;
   opacity: 0.7;
 }
 
@@ -100,13 +99,13 @@ body {
 
 .search-box {
   position: relative;
-  top: 20%;
+  top: 10%;
   /* left: 50%; */
   text-align: center;
 }
 
 .search-box input {
-  width: 70%;
+  width: 80%;
   line-height: 40px;
   padding-bottom: 5px;
   border: 0;
@@ -130,6 +129,89 @@ body {
 .search-box i:hover {
   color: var(--red);
 }
+
+/* End Search box */
+
+/* Shoping cart */
+.overlay2 {
+  position: fixed;
+  transform: translateX(100%);
+  visibility: hidden;
+  z-index: 1;
+  height: 100%;
+  width: 20%;
+  top: 10%;
+  right: 0;
+  background-color: #fff;
+  transition: 0.5s ease;
+}
+
+.cart-box {
+  padding: 25px;
+}
+
+.cart-box .title-cart h3 {
+  font-size: 21px;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.cart-box .title-cart .exit {
+  font-size: 19px;
+  float: right;
+  cursor: pointer;
+}
+
+.cart-box .title-cart .exit:hover {
+  color: var(--red);
+}
+
+.cart-box .content-cart {
+  margin-top: 35px;
+  height: 500px;
+}
+
+.content-cart h4 {
+  font-size: 19px;
+  color: #5b5b5b;
+}
+
+.footer-cart .total {
+  padding: 15px 0;
+  border-top: 1px solid var(--grey2);
+  border-bottom: 1px solid var(--grey2);
+}
+
+.footer-cart .total h4 {
+  display: inline-block;
+  margin: 0;
+  font-size: 22px;
+}
+
+.footer-cart .total span {
+  float: right;
+  font-size: 22px;
+}
+
+.footer-cart a {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 20px 120px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid var(--grey);
+  transition: 0.2s ease;
+}
+
+.footer-cart a:hover {
+  background-color: var(--red);
+  color: #fff;
+  border: 1px solid #fff;
+}
+/* End Shoping cart */
+
 /* Mobile */
 
 .bg-light .navbar-toggler {
